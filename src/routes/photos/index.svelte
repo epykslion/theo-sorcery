@@ -4,9 +4,9 @@
     {
       title: 'Imperial Garden',
       location: 'Osakajo',
-      src: './osakajo/osakajo-5.webp',
       caption: "A glimpse of Osakajo's beautiful landscape scenery in spring",
-      href: './osakajo'
+      src: '/photos/osakajo/osakajo-5.webp',
+      href: '/photos/osakajo'
     }
   ];
 </script>
@@ -15,15 +15,15 @@
   <span slot="title">Photo Gallery</span>
   <span slot="subtitle">There's a story in each one</span>
 </Header>
-<main>
-  {#each pics as { title, location, src, caption, href }}
-    <a {href} class="shadow bg-red-50 hover:shadow-lg">
-      <article>
-        <img {src} alt={caption} />
-        <h2>{title}</h2>
-        <p>{location}</p>
-        <p>{caption}</p>
+<section>
+  {#each pics as { title, location, caption, src, href }}
+    <a svelte:prefetch {href} class="shadow bg-red-50 hover:shadow-lg">
+      <article class='shadow-lg flex justify-center flex-col pb-6'>
+        <img {src} alt={caption} class='mx-auto' width='300' height='200' />
+        <h2 class='font-bold mt-2 text-xl'>{title}</h2>
+        <p class='text-gray-500'>{location}</p>
+        <p class='px-4'>{caption}</p>
       </article>
     </a>
   {/each}
-</main>
+</section>
