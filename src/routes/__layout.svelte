@@ -4,4 +4,6 @@
 </script>
 
 <Navbar/>
-  <slot />
+  <main class="mt-16">
+  <slot></slot>
+  </main>

@@ -1,4 +1,5 @@
 <script>
+  import Header from '$lib/header/Header.svelte';
   import MenuCard from '$lib/card/MenuCard.svelte';
   let menuItem = [
     {
@@ -19,8 +20,11 @@
     }
   ];
 </script>
-  <h1 class="mt-20">Theodore Idris</h1>
-  <p class='mx-2'>Content Creator since 2010</p>
+<Header>
+  <span slot='title'>Theodore Idris</span>
+  <span slot='subtitle'>Content Creator since 2010</span>
+  </Header>
+  <p class="text-gray-500 mt-4 text-sm drop-shadow-xs">Check out my previous work below</p>
 <div class="space-y-4">
   {#each menuItem as { title, description, href }}
     <a svelte:prefetch {href}>

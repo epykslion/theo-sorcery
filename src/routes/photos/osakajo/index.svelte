@@ -25,7 +25,7 @@
   <span slot="location">Osakajo</span>
 </ImgHeader>
 <img src='/photos/osakajo/osakajo-1.webp' alt='a pristine view of one of the few lakes from inside Osaka Castle, we see two traditional Japanese buildings in the background' class='max-w-screen px-2'/>
-<div class="carousel p-2 carousel-center">
+<div class="carousel p-2 space-x-2 carousel-center">
 {#each osaka as {src, alt}}
   <div class="carousel-item">
     <img {src} {alt} class="rounded w-full">
@@ -33,12 +33,11 @@
   {/each}
 </div>
 <img src='/photos/osakajo/osakajo-5.webp' alt='the gardens of osaka castle, a single sakura trees blossoming in the background' class='max-w-screen px-2'/>
-<p class='p-4 text-lg'>
+<p class='py-2 px-4 text-lg'>
   I was fortunate enough to visit Osakajo (Osaka Castle) during my visit to
   Japan.
 </p>
-<p class='text-lg p-4'>
-  The landscape was beautiful, I couldn’t resist wandering off to snap a few
-  pictures during our visit.
+<p class='text-lg px-4 py-2'>
+  The landscape was beautiful, I just had to snap these shots during our visit.
 </p>
 </article>

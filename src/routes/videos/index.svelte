@@ -32,15 +32,15 @@
   <span slot="subtitle">What would you like to watch?</span>
 </Header>
 {#each videos as { title, caption, id, alt, client }}
-  <a class="justify-center" href="https://www.youtube.com/watch?v={id}">
+  <a class="justify-center flex flex-col" href="https://www.youtube.com/watch?v={id}">
     <article
-      class="flex flex-wrap items-center justify-center pb-6 my-4 transition-all shadow-lg md:pb-16 md:flex-nowrap lg:max-w-5xl xl:pb-0 md:text-left hover:shadow-2xl hover:bg-gray-800 hover:text-gray-100"
+      class="flex flex-wrap items-center justify-center pb-6 my-4 transition-all shadow-lg md:pb-16 md:flex-nowrap lg:max-w-5xl xl:pb-0 md:text-left hover:shadow-xl hover:bg-indigo-100"
     >
       <img class="w-screen mb-2 xs:w-auto" src="https://i.ytimg.com/vi/{id}/mqdefault.jpg" {alt} />
       <div class="flex px-2 flex-col md:ml-4 md:pr-8">
         <h2 class="text-xl mt-2 font-bold">{title}</h2>
-        <p class="mt-1 mb-2 text-gray-400">Client: {client}</p>
-        <p class="font-medium text-base md:mb-2">{caption}</p>
+        <p class="mt-1 mb-2 text-gray-500">Client: {client}</p>
+        <p class="font-medium md:mb-2">{caption}</p>
       </div>
     </article>
   </a>

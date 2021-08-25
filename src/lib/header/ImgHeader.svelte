@@ -10,9 +10,4 @@
       <slot name="location"><span>But where are we?</span></slot>
     </p>
   </div>
-  <a
-    href="/photos"
-    class="px-3 pb-1.5 pt-2 rounded-lg text-gray-100 bg-gray-800 hover:opacity-80"
-    >&larr; Go Back?</a
-  >
 </header>
