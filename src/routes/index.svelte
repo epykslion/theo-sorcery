@@ -22,7 +22,7 @@
 </script>
 <Header>
   <span slot='title'>Theodore Idris</span>
-  <span slot='subtitle'>Creating beautiful experiences your audience would love</span>
+  <span slot='subtitle'>Designing simply magical experiences</span>
   </Header>
   <main class='flex flex-col justify-center items-center'>
   <p class="text-gray-500 mt-4 text-sm drop-shadow-xs">Check out my previous work below</p>

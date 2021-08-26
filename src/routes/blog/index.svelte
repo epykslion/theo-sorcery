@@ -7,5 +7,5 @@
 </svelte:head>
 <Header>
   <span slot='title'>The Blog!</span>
-  <span slot='subtitle'>The exclamation <span class='font-bold font-serif underline'>is</span>  necessary</span>
+  <span slot='subtitle'>Thoughts and ideas on product, design, and startups.</span>
 </Header>

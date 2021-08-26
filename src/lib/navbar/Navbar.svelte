@@ -33,7 +33,7 @@
 		Hello, I'm Theo</a>
 	<!--Dropdown-->
 	<div class="relative group inline-block hover:block">
-		<button class="inline-block hover:shadow-lg relative text-gray-800 mx-4 h-12 p-2 group-hover:block transition group-hover:-rotate-90 group-hover:dropshadow">
+		<button class="inline-block hover:shadow-lg relative text-gray-800 mx-4 h-12 p-2 group-hover:block duration-300 transition group-hover:-rotate-90 group-hover:shadow-md">
 			<svg width="32" height="32">
 				<rect y="15" width="28" height="3" rx="4"></rect>
 				<rect y="5" width="28" height="3" rx="4"></rect>

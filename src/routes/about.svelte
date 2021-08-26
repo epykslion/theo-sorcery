@@ -12,13 +12,11 @@
     >So what <span class="italic font-bold">is</span> a Theo?</span
   >
 </Header>
-<article class="px-2">
+<article class="px-3 py-4 my-2 space-y-4 bg-white shadow-md">
 <p>
   Theo is an indie filmmaker, creator, developer, and strategist. He began his career in 2010, shooting comedy skits with friends before founding a small production company in 2016.
 </p>
-<br/>
 <p>
   He has worked alongside several startups, agencies, creators, and brands - most notably being Petronas, BFM, Schneider Electric, An Honest Mistake, and Taylor's University.
 </p>
 </article>
-<p class="text-gray-800">to be continued &rarr;</p>

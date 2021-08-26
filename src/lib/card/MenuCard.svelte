@@ -1,7 +1,7 @@
 <article
-  class="p-4 my-4 bg-white transition-all border border-gray-300 rounded-sm shadow cursor-pointer w-80 hover:border-indigo-600 hover:text-indigo-600"
+  class="p-4 my-4 bg-white transition-all border border-gray-300 rounded-sm shadow-md cursor-pointer w-80 hover:border-indigo-600 hover:shadow-xl hover:text-indigo-600"
 >
-  <h2 class="pt-1 mb-2 text-lg font-bold">
+  <h2 class="pt-1 mb-2 text-xl font-bold">
     <slot name="title">
       <span class="text-gray-600">Please add title</span>
     </slot>
