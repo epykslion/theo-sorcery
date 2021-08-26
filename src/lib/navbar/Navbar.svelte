@@ -1,32 +1,32 @@
 <script>
   let links = [
     {
-    href: "/"
+    href: "/",
     text: "Home"
     },
     {
-    href: "/about"
+    href: "/about",
     text: "About"
     },
     {
-    href: "/videos"
+    href: "/videos",
     text: "Videos"
     },
     {
-    href: "/photos"
+    href: "/photos",
     text: "Photos"
     },
     {
-    href: "/blog"
+    href: "/blog",
     text: "Blog"
     },
     {
-    href: "/contact"
+    href: "/contact",
     text: "Contact"
     },
   ]
 </script>
-<nav class="sticky top-0 right-0 left-0 h-12 bg-white w-screen shadow-md flex items-center justify-between">
+<nav class="fixed top-0 right-0 left-0 h-12 bg-white w-screen shadow-md z-50 flex items-center justify-between">
 	<!--Link to Home-->
 	<a href="/" class="flex text-gray-800 m-2 font-medium items-center justify-start">
 		<img src="whatsorcery-logo.png" height="32" width="32" class="mr-2" alt="what sorcery!"/>
@@ -35,9 +35,9 @@
 	<div class="relative group inline-block hover:block">
 		<button class="inline-block hover:shadow-lg relative text-gray-800 mx-4 h-12 p-2 group-hover:block transition group-hover:-rotate-90 group-hover:dropshadow">
 			<svg width="32" height="32">
-				<rect y="15" width="28" height="3" rx="4""></rect>
-				<rect y="5" width="28" height="3" rx="4""></rect>
-				<rect y="25" width="28" height="3" rx="4""></rect>
+				<rect y="15" width="28" height="3" rx="4"></rect>
+				<rect y="5" width="28" height="3" rx="4"></rect>
+				<rect y="25" width="28" height="3" rx="4"></rect>
 			</svg>
 </button>
     <!--dropdown items-->

@@ -1,7 +1,5 @@
 <script>
-  import '../app.postcss';
-  import Navbar from '$lib/navbar/Navbar.svelte';
-  let socials = [
+let socials = [
   {
   href: "https://github.com/theonikolai/theo-sorcery",
   title: "the link to this repository",
@@ -20,10 +18,6 @@
   ]
 </script>
 
-<Navbar/>
-  <main class="mt-16">
-  <slot></slot>
-  </main>
 <footer class="flex m-2 space-y-2 justify-center flex-col items-center md:flex-row-wrap md:justify-around">
 <a href="/"><img src="whatsorcery-logo.png" height="32" width="32" alt="what sorcery logo"/></a>
 <p class="font-medium">More features coming soon!</p>
