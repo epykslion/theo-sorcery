@@ -45,20 +45,21 @@
 </script>
 
 <footer class="flex m-2 space-y-2 justify-center flex-col items-center md:flex-row-wrap md:justify-around">
-<a href="/"><img src="whatsorcery-logo.png" height="32" width="32" alt="what sorcery logo"/></a>
+<a href="/"><img src="whatsorcery-logo.png" height="32" width="32" title="mao!" class="dropshadow" alt="what sorcery logo"/></a>
 <p class="font-medium">More features coming soon!</p>
-<div>
-<p class="font-semibold">Directory</p>
+<div class="leading-normal">
+<p class="font-semibold m-1">Directory</p>
 {#each links as {href, text}}
-<a {href}>{text}</a>
+<a {href}>{text}</a><br/>
 {/each}
-<div>
-<p class="font-semibold">Socials</p>
+</div>
+<div class="leading-normal">
+<p class="font-semibold m-1">Socials</p>
 {#each socials as {href, title, link}}
 <a {href} {title}>{link}</a><br/>
 {/each}
 </div>
-<div class="tracking-wider my-4">
+<div class="tracking-widest text-gray-400 my-8">
 Created by Theo Nikolai Idris
 </div>
 </footer>
