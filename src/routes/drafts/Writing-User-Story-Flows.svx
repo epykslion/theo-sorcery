@@ -27,8 +27,6 @@ There are a number of frameworks available but your should always ask yourself:-
 4. Why would they consider your product after experiencing similar solutions, or worse yet - if they haven't even heard of your prouct?
 5. What is it about your product or your content that prompted them to approach you in the first place.
 
-With all that in mind, you should always write down your user journey as descriptive as you deem necessary. If you ever get stuck, try writing from your own experiences.
-
-If you faced these problems yourself, chance are someone else would share the same frustrations too.
+With that in mind, try to write down your users' journey as descriptive as you can. If you ever get stuck, try being inspirated by your own experiences. Chances are, someone else already shares the same frustrations as you do.
 
 
