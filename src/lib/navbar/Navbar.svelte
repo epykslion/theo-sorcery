@@ -41,10 +41,10 @@
 			</svg>
 </button>
     <!--dropdown items-->
-		<ul class="hidden absolute bg-gray-200 shadow-md flex-col p-4 w-screen h-[95vh] space-y-3 right-0 z-50 group-hover:flex">
+		<ul class="hidden transition duration-300 absolute bg-gray-200 shadow-md items-center justify-center flex-col p-4 w-screen h-[95vh] space-y-4 right-0 z-50 group-hover:flex">
 		{#each links as {href, text}} 
 			<a {href}>
-			    <li class= "shadow-md md:shadow-lg p-4 hover:bg-indigo-400 bg-white mx-2">
+			    <li class= "shadow-md transition duration-300 w-80 hover:shadow-lg p-4 hover:bg-indigo-400 bg-white mx-2">
 					{text}
 			    </li>
 		    </a>

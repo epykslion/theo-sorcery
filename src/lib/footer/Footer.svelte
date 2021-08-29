@@ -44,7 +44,7 @@
     ]
 </script>
 
-<footer class="flex m-2 space-y-2 justify-center flex-col items-center md:flex-row-wrap md:justify-around">
+<footer class="flex m-2 space-y-2 justify-center flex-col items-center md:flex-row-  md:justify-around">
 <a href="/"><img src="whatsorcery-logo.png" height="32" width="32" title="mao!" class="dropshadow" alt="what sorcery logo"/></a>
 <p class="font-medium">More features coming soon!</p>
 <div class="leading-normal">

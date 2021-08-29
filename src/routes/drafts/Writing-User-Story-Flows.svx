@@ -1,0 +1,34 @@
+---
+title: Writing User Story Flows
+description: 
+author: Theodore Nikolai Idris
+twitter: https://twitter.com/theonikomao
+linkedin: https://linkedin.com/in/theonikolai
+instagram: https://instagram.com/theonikolai
+---
+
+# Rethinking User Stories
+
+While writing user personas may seem daunting, they aren't.
+
+It boils down to understanding understanding what your audience might be thinking as they explore your site. Chances are, if you know why you built your product in the first place, you should already know who your buyers are, and what their personalities are like.
+
+Instead of thinking of "What Tim the marketer is like," think about the problems they're trying to solve. What is their "job to be done," and is your product a good fit as a solution?
+
+For example, you might have made a Social Media Listener tool. The problem you're solving could be, "if only I could keep track of these conversations, and understand what people think about my company".
+
+User Stories are really just your users' thought processes have when they're looking for a solution, navigating through your website, and exploring your product.
+
+There are a number of frameworks available but your should always ask yourself:-
+
+1. What problems were they facing that led to them searching for your solution?
+2. What did they do to find a solution to their problem? (did they search on LinkedIn, ask for referrals...)
+3. What were their frustrations with other solutions they've tried to fix their problems?
+4. Why would they consider your product after experiencing similar solutions, or worse yet - if they haven't even heard of your prouct?
+5. What is it about your product or your content that prompted them to approach you in the first place.
+
+With all that in mind, you should always write down your user journey as descriptive as you deem necessary. If you ever get stuck, try writing from your own experiences.
+
+If you faced these problems yourself, chance are someone else would share the same frustrations too.
+
+

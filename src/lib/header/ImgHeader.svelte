@@ -5,7 +5,9 @@
       <slot name="title"><span>Such a pretty place</span></slot>
     </h1>
     <div class="max-w-screen">
-      
+      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="/assets/img/sprite.svg#location_on"></use>
+      </svg>
     <p class="py-2 text-left text-xl">
       <slot name="location"><span>But where are we?</span></slot>
     </p>
