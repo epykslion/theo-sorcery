@@ -159,8 +159,8 @@
             <img
               class="w-32 rounded-lg shadow-lg md:w-56"
               width="200"
-              src="/images/object/8.jpg"
-              alt="1"
+              src="photos/portfolio/a-boat-in-the-sunset.webp"
+              alt="A boat in fhe sunset"
             />
             <img
               class="w-40 rounded-lg shadow-lg md:w-64"
@@ -173,7 +173,7 @@
             class="flex items-start justify-center ml-12 space-x-4 lg:justify-start"
           >
             <img
-              class="w-24 rounded-lg shadow-lg md:w-40"
+              class="w-28 rounded-lg shadow-lg md:w-40"
               width="170"
               src="/photos/portfolio/prudential-event-photography.webp"
               alt="Prudential Event Photography"

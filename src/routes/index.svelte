@@ -25,7 +25,7 @@
 <header>
   <div>
     <div
-      class="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-8 md:px-10 lg:px-32"
+      class="container flex flex-col items-center px-4 py-12 pb-24 mx-auto text-center lg:pb-56 md:py-8 md:px-10 lg:px-32"
     >
       <h1
         class="relative z-10 pb-6 text-4xl font-black leading-tight text-center text-gray-800 sm:text-5xl md:text-7xl tracking-snug sm:leading-snug md:leading-tight"
@@ -64,7 +64,7 @@
     class="container flex items-center justify-center transition duration-300 group hover:scale-95"
   >
     <p
-      class="absolute hidden text-5xl font-extrabold text-gray-600 top-20 group-hover:block"
+      class="absolute text-2xl hidden md:text-5xl top-0 font-extrabold text-gray-700 md:top-20 group-hover:block"
     >
       The portfolio is still being built,<br />please come back shortly
     </p>
@@ -88,7 +88,7 @@
     <p class="mt-2 text-[1.3rem] text-center">Well, check them out yourself:</p>
     <ol class="flex flex-col text-xl lg:flex-row lg:-mx-4">
       <li
-        class="flex flex-col p-8 mt-8 bg-white rounded shadow lg:w-1/3 lg:mx-4 hover:shadow-lg"
+        class="flex flex-col p-8 mt-8 bg-white rounded transition duration-300 shadow lg:w-1/3 lg:mx-4 hover:scale-105 hover:shadow-xl"
       >
         <picture class="mb-4 text-center">
           <source
@@ -105,10 +105,10 @@
         </picture>
         <p class="text-xl">01</p>
         <h3 class="my-2.5 font-semibold text-2xl">Content Creation</h3>
-        <p class="">Let your content speak directly to your audience.</p>
+        <p class="">We design content that <strong>actually</strong> matter to your audience.</p>
       </li>
       <li
-        class="flex flex-col p-8 mt-8 bg-white rounded shadow lg:w-1/3 lg:mx-4 hover:shadow-lg"
+        class="flex transition duration-300 flex-col p-8 mt-8 bg-white rounded shadow lg:w-1/3 lg:mx-4 hover:scale-105 hover:shadow-xl"
       >
         <picture class="mb-4 text-center">
           <source
@@ -132,7 +132,7 @@
         </p>
       </li>
       <li
-        class="flex flex-col p-8 mt-8 bg-white rounded shadow lg:w-1/3 lg:mx-4 hover:shadow-lg"
+        class="flex transition duration-300 flex-col p-8 mt-8 bg-white rounded shadow lg:w-1/3 lg:mx-4 hover:scale-105 hover:shadow-xl"
       >
         <picture class="mb-4 text-center">
           <source
@@ -156,7 +156,7 @@
       </li>
     </ol>
   </div>
-  <div class="relative my-2">
+  <div class="relative mx-3 my-2">
     <h3
       class="text-3xl font-extrabold leading-8 tracking-tight text-left text-gray-900 lg:text-center sm:text-4xl sm:leading-10"
     >
@@ -172,7 +172,7 @@
         <input
           type="text"
           placeholder="example@email.com"
-          class="w-3/5 p-3 rounded-l-lg sm:w-2/3"
+          class="md:w-3/5 p-3 rounded sm:w-2/3"
         />
         <button
           type="button"
