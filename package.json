@@ -4,35 +4,45 @@
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build --verbose",
-		"preview": "svelte-kit preview"
+		"preview": "svelte-kit preview",
+		"lint": "svelte-check && prettier --check . && eslint --ignore-path .gitignore .",
+		"format": "prettier --write ."
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "next",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.30",
 		"@sveltejs/kit": "next",
 		"@tailwindcss/aspect-ratio": "^0.2.1",
 		"@tailwindcss/forms": "^0.3.3",
 		"@tailwindcss/line-clamp": "^0.2.1",
 		"@tailwindcss/typography": "^0.4.1",
-		"autoprefixer": "^10.3.3",
+		"@typescript-eslint/eslint-plugin": "^4.30.0",
+		"@typescript-eslint/parser": "^4.30.0",
+		"autoprefixer": "^10.3.4",
 		"cssnano": "^5.0.8",
 		"daisyui": "^1.14.0",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-svelte3": "^3.2.0",
 		"mdsvex": "^0.9.8",
 		"postcss": "^8.3.6",
+		"postcss-import": "^14.0.2",
 		"postcss-load-config": "^3.1.0",
+		"prettier": "^2.3.2",
+		"prettier-eslint": "^13.0.0",
+		"prettier-plugin-svelte": "^2.4.0",
 		"svelte": "^3.42.4",
+		"svelte-check": "^2.2.5",
 		"svelte-preprocess": "^4.8.0",
-		"tailwindcss": "^2.2.8",
-		"vite": "^2.5.1"
+		"tailwindcss": "^2.2.9",
+		"tslib": "^2.3.1",
+		"typescript": "^4.4.2",
+		"vite": "^2.5.3"
 	},
 	"dependencies": {
 		"@carbon/icons": "^10.37.0",
-		"prettier": "^2.3.2",
-		"prettier-plugin-svelte": "^2.4.0"
-	},
-	"prettier": {
-		"arrowParens": "always",
-		"singleQuote": true,
-		"tabWidth": 2,
-		"trailingComma": "none"
+		"@fortawesome/free-solid-svg-icons": "^5.15.4",
+		"svelte-fa": "^2.3.3",
+		"svelte-meta-tags": "^1.1.1"
 	}
 }

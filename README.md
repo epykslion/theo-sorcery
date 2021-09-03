@@ -1,5 +1,8 @@
-# Theo's Portfolio
+# The What?!
 
-<p style='font-color: #555;'>Made in <a href='https://kit.svelte.dev' style='font-color: #555; text-decoration: none;'>Sveltekit</a></p 
+Welcome to theo.whatsorcery.com. This website hosts my prior work as a content creator as well as some web experiments I've been working on.
 
-This repository serves as the code base for my portfolio website.
+It's still a work in progress though, here are some of the issues I'll be working on.
+
+- [ ] Tweaking the navigation bar 
+- [ ] Fixing the responsiveness for the front page

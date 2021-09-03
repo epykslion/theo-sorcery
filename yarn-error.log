@@ -1,0 +1,73 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Primus Maous\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D carbon-icons-svelte
+
+PATH: 
+  C:\Users\Primus Maous\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Primus Maous\bin;C:\Python39\Scripts;C:\Python39;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Pandoc;C:\Program Files\dotnet;C:\Users\Primus Maous\AppData\Local\Microsoft\WindowsApps;C:\Users\Primus Maous\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Primus Maous\AppData\Roaming\npm;C:\Program Files (x86)\GitHub CLI;C:\Users\Primus Maous\.dotnet\tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@carbon/icons/-/icons-10.37.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Primus Maous\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141390:19)
+      at Object.onceWrapper (node:events:513:28)
+      at ClientRequest.emit (node:events:394:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:761:9)
+      at Object.onceWrapper (node:events:513:28)
+      at TLSSocket.emit (node:events:406:35)
+      at TLSSocket.Socket._onTimeout (node:net:486:8)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+
+npm manifest: 
+  {
+  	"private": true,
+  	"type": "module",
+  	"scripts": {
+  		"dev": "svelte-kit dev",
+  		"build": "svelte-kit build --verbose",
+  		"preview": "svelte-kit preview"
+  	},
+  	"devDependencies": {
+  		"@sveltejs/adapter-netlify": "^1.0.0-next.29",
+  		"@sveltejs/kit": "next",
+  		"@tailwindcss/aspect-ratio": "^0.2.1",
+  		"@tailwindcss/forms": "^0.3.3",
+  		"@tailwindcss/line-clamp": "^0.2.1",
+  		"@tailwindcss/typography": "^0.4.1",
+  		"autoprefixer": "^10.3.3",
+  		"cssnano": "^5.0.8",
+  		"daisyui": "^1.14.0",
+  		"mdsvex": "^0.9.8",
+  		"postcss": "^8.3.6",
+  		"postcss-load-config": "^3.1.0",
+  		"svelte": "^3.42.4",
+  		"svelte-preprocess": "^4.8.0",
+  		"tailwindcss": "^2.2.8",
+  		"vite": "^2.5.1"
+  	},
+  	"dependencies": {
+  		"@carbon/icons": "^10.37.0",
+  		"prettier": "^2.3.2",
+  		"prettier-plugin-svelte": "^2.4.0",
+  		"svelte-meta-tags": "^1.0.4"
+  	},
+  	"prettier": {
+  		"arrowParens": "always",
+  		"singleQuote": true,
+  		"tabWidth": 2,
+  		"trailingComma": "none"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

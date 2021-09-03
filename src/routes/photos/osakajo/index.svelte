@@ -19,7 +19,7 @@
 <svelte:head>
   <title>Imperial Garden: Osakajo</title>
 </svelte:head>
-<article>
+<article class="max-w-xl mx-auto">
 <ImgHeader>
   <span slot="title"> Imperial Garden </span>
   <span slot="location">Osakajo</span>
@@ -33,11 +33,11 @@
   {/each}
 </div>
 <img src='/photos/osakajo/osakajo-5.webp' alt='the gardens of osaka castle, a single sakura trees blossoming in the background' class='max-w-screen px-2'/>
-<p class='py-2 px-4 text-lg'>
+<p class='py-2 px-4 md:px-6 text-lg'>
   I was fortunate enough to visit Osakajo (Osaka Castle) during my visit to
   Japan.
 </p>
-<p class='text-lg px-4 py-2'>
+<p class='text-lg px-4 md:px-6 py-2'>
   The landscape was beautiful, I just had to snap these shots during our visit.
 </p>
 </article>

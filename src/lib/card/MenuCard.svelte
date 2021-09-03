@@ -1,5 +1,5 @@
 <article
-  class="p-4 my-4 bg-white transition-all border border-gray-300 rounded-sm shadow-md cursor-pointer w-80 hover:border-indigo-600 hover:shadow-xl hover:text-indigo-600"
+  class="p-4 my-4 bg-white transition-all border border-gray-100 rounded-sm drop-shadow cursor-pointer w-80 hover:shadow-lg hover:bg-indigo-600 hover:text-gray-300"
 >
   <h2 class="pt-1 mb-2 text-xl font-bold">
     <slot name="title">
