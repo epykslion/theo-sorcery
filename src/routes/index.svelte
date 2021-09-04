@@ -35,7 +35,7 @@
         <span class="relative inline-flex">
           <span
             aria-hidden="false"
-            class="absolute inset-0 inline transform scale-80 md:scale-95 -translate-x-1 bg-red-300 -rotate-2"
+            class="absolute inset-0 inline transform scale-75 md:scale-95 -translate-x-1 bg-red-300 -rotate-2"
           />
 
           <span class="relative">We design experiences</span>
@@ -150,7 +150,7 @@
         <p class="text-xl">03</p>
         <h4 class="text-2xl font-semibold my-2.5">Strategy Development</h4>
         <p class="mb-0">
-          Always having the right tool for the job, we provide special care and an analytical approach to any problem.
+          Always having the right tools for the job, identifying and simplifying your problems is what we do best!
         </p>
       </li>
     </ol>
