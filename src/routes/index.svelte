@@ -35,7 +35,7 @@
         <span class="relative inline-flex">
           <span
             aria-hidden="false"
-            class="absolute inset-0 inline transform scale-95 -translate-x-1 bg-red-300 -rotate-2"
+            class="absolute inset-0 inline transform scale-80 md:scale-95 -translate-x-1 bg-red-300 -rotate-2"
           />
 
           <span class="relative">We design experiences</span>
@@ -82,7 +82,7 @@
   </div>
   <!--What I do-->
   <div class="container px-8 py-8 mx-auto">
-    <h2 class="text-5xl text-center text-gray-900 text-bold">
+    <h2 class="MD:text-5xl text-4xl text-center text-gray-900 text-extrabold">
       So what do I do?
     </h2>
     <p class="mt-2 text-[1.3rem] text-center">Well, check them out yourself:</p>
@@ -99,7 +99,7 @@
             srcset="https://vexilo-crm.s3.amazonaws.com/assets/Diagnostico@2x.png 2x, https://vexilo-crm.s3.amazonaws.com/assets/Diagnostico.png"
           />
           <img
-            alt="Consultoría de software"
+            alt="Content Consultancy"
             src="https://vexilo-crm.s3.amazonaws.com/assets/Diagnostico.png"
           />
         </picture>
@@ -119,7 +119,7 @@
             srcset="https://vexilo-crm.s3.amazonaws.com/assets/Diseno@2x.png 2x, https://vexilo-crm.s3.amazonaws.com/assets/Diseno.png"
           />
           <img
-            alt="Diseño web"
+            alt="Web Design"
             src="https://vexilo-crm.s3.amazonaws.com/assets/Diseno.png"
           />
         </picture>
@@ -143,15 +143,14 @@
             srcset="https://vexilo-crm.s3.amazonaws.com/assets/Desarrollo@2x.png 2x, https://vexilo-crm.s3.amazonaws.com/assets/Desarrollo.png"
           />
           <img
-            alt="Desarrollo de software"
+            alt="Strategy Development"
             src="https://vexilo-crm.s3.amazonaws.com/assets/Desarrollo.png"
           />
         </picture>
         <p class="text-xl">03</p>
         <h4 class="text-2xl font-semibold my-2.5">Strategy Development</h4>
         <p class="mb-0">
-          Our approach is analytical, efficient, and we always have the right
-          tool for the job.
+          Always having the right tool for the job, we provide special care and an analytical approach to any problem.
         </p>
       </li>
     </ol>
