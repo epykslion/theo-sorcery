@@ -28,7 +28,7 @@
       class="container flex flex-col items-center px-4 py-12 pb-24 mx-auto text-center lg:pb-56 md:py-8 md:px-10 lg:px-32"
     >
       <h1
-        class="relative z-10 pb-6 text-4xl font-black leading-tight text-center text-gray-800 sm:text-5xl md:text-7xl tracking-snug sm:leading-snug md:leading-tight"
+        class="relative z-10 pb-6 text-4xl font-black leading-tight text-center text-gray-800 sm:text-5xl md:text-6xl tracking-snug sm:leading-snug md:leading-tight"
       >
         We don't just make content
         <br />
