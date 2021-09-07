@@ -46,14 +46,14 @@
   ];
 </script> -->
 
-<footer class="container my-6">
-  <a href="/"
+<footer class="container bottom-0 relative left-0 right-0 w-max mx-auto py-4">
+  <a href="/" class="group"
     ><img
       src="whatsorcery-logo.png"
-      height="40"
-      width="40"
+      height="32"
+      width="32"
       title="mao"
-      class=" inline mr-1 my-4 filter shadow hover:shadow-lg"
+      class=" inline mr-2 shadow group-hover:shadow-lg"
       alt="what sorcery logo"
     />
     <!-- <p class="font-medium leading-tight track">More features<br />coming soon!</p>
@@ -86,7 +86,7 @@
     </div>
   </div> -->
 
-    <p class="inline text-xl tracking-widest text-center">
+    <p class="inline sm:text-xl sm:tracking-widest text-base tracking-wider text-center group-hover:underline">
       Created by Theo Nikolai Idris
     </p>
   </a>

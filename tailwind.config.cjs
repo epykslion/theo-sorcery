@@ -41,7 +41,6 @@ const config = {
     extend: {}
   },
   plugins: [
-    require('daisyui'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/line-clamp'),

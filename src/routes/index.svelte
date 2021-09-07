@@ -22,13 +22,10 @@
   ];
 </script>
 
-<header class="">
-  <div>
-    <div
-      class="container flex flex-col items-center px-4 py-12 pb-24 mx-auto text-center lg:pb-56 md:py-8 md:px-10 lg:px-32"
+<header class="container flex flex-col items-center px-4 py-4 mx-auto text-center h-4/5"
     >
       <h1
-        class="z-10 pb-6 text-4xl font-black leading-tight text-center text-gray-800 sm:text-6xl tracking-snug sm:leading-snug md:leading-tight"
+        class="z-10 pb-6 text-2xl font-black leading-tight text-center text-gray-800 sm:text-6xl tracking-snug sm:leading-snug md:leading-tight"
       >
         We don't just make content
         <br />
@@ -41,40 +38,35 @@
           <span class="relative">We design experiences</span>
         </span>
       </h1>
-      <p
-        class="mt-6 mb-8 text-2xl sm:mb-12 xl:max-w-3xl dark:text-coolGray-900"
-      />
       <div class="flex flex-wrap justify-center">
         <a href="/contact">
           <button
-            class="px-8 py-3 m-2 text-lg font-semibold bg-gray-900 rounded btn hover:bg-gray-700"
+            class="px-8 py-3 m-1.5 text-xl font-bold text-white border-2 bg-gray-800 hover:bg-black hover:shadow-lg transition duration-300 hover:-translate-y-1"
             >Get in touch</button
           >
         </a>
         <a href="/about">
           <button
-            class="px-8 py-3 m-2 text-lg text-gray-600 border-2 border-gray-600 rounded btn btn-outline"
+            class="px-8 py-3 m-1.5 text-xl text-gray-600 border-2 border-gray-600 hover:shadow-lg hover:-text-black transition duration-300 hover:border-black hover:-translate-y-1"
             >Learn more</button
           >
         </a>
       </div>
-    </div>
-  </div>
-  <div
-    class="container flex items-center justify-center transition duration-300 group hover:scale-95"
-  >
+</header>
+<!--Image-->
+<section
+    class="container inline-flex items-center justify-center transition duration-300 group hover:scale-95">
     <p
-      class="absolute text-2xl hidden md:text-5xl top-0 font-extrabold text-gray-700 md:top-20 group-hover:block"
+      class="absolute text-2xl hidden md:text-4xl font-extrabold text-gray-900 group-hover:block"
     >
       The portfolio is still being built,<br />please come back shortly
     </p>
     <img
       src="/photos/osakajo/osakajo-5.webp"
       alt=""
-      class="w-5/6 mx-auto mb-12 -mt-20 transition duration-300 rounded-lg shadow-md group-hover:opacity-40 lg:-mt-48"
+      class="w-full sm:h-[400] sm:w-auto mx-auto transition duration-300 rounded-lg shadow-md group-hover:opacity-30"
     />
-  </div>
-</header>
+</section>
   
 <section class="block">
   <div class="max-w-screen-xl mx-auto">
@@ -88,7 +80,7 @@
     <p class="mt-2 text-[1.3rem] text-center">Well, check them out yourself:</p>
     <ol class="flex flex-col justify-center items-center text-xl lg:flex-row lg:mx-4">
       <li
-        class="flex flex-col p-8 mt-8 bg-white rounded transition duration-300 shadow lg:w-1/3 lg:mx-4 hover:scale-105 hover:shadow-xl"
+        class="flex flex-col p-8 mt-8 bg-white rounded transition duration-300 shadow lg:w-1/5 lg:mx-4 hover:scale-105 hover:shadow-xl"
       >
         <picture class="mb-4 text-center">
           <source
@@ -108,7 +100,7 @@
         <p class="">From videos to blogs, we know exactly what matters to your audience.</p>
       </li>
       <li
-        class="flex transition duration-300 flex-col p-8 mt-8 bg-white rounded shadow lg:w-1/3 lg:mx-4 hover:scale-105 hover:shadow-xl"
+        class="flex transition duration-300 flex-col p-8 mt-8 bg-white rounded shadow lg:w-1/5 lg:mx-4 hover:scale-105 hover:shadow-xl"
       >
         <picture class="mb-4 text-center">
           <source
@@ -130,7 +122,7 @@
         </p>
       </li>
       <li
-        class="flex transition duration-300 flex-col p-8 mt-8 bg-white justify-center items-center rounded shadow lg:w-1/3 lg:mx-4 hover:scale-105 hover:shadow-xl"
+        class="flex transition duration-300 flex-col p-8 mt-8 bg-white justify-center items-center rounded shadow lg:w-1/5 lg:mx-4 hover:scale-105 hover:shadow-xl"
       >
         <picture class="mb-4 text-center">
           <source
@@ -153,16 +145,16 @@
       </li>
     </ol>
   </div>
-  <div class="relative mx-3 my-2">
+  <div class="relative mx-4 my-2">
     <h3
-      class="text-3xl font-extrabold leading-8 tracking-tight text-left text-gray-900 lg:text-center sm:text-4xl sm:leading-10"
+      class="text-[1.75rem] ml-2 font-extrabold leading-9 tracking-tight text-left text-gray-900 lg:text-center sm:text-4xl sm:leading-10"
     >
-      Ready to take the next step?
+      Want the latest tips on content strategy?
     </h3>
     <p
-      class="max-w-3xl mx-auto mt-4 text-xl leading-7 text-left text-gray-500 sm:text-center"
+      class="max-w-3xl ml-2 sm:mx-auto mt-2 text-[1.15rem] sm:text-[1.3rem] leading-7 text-left text-gray-400 sm:text-center"
     >
-      Let's talk and see what we can do together
+      Subscribe to our newsletter below!
     </p>
     <form class="container flex items-center justify-center mx-auto my-4 w-7xl">
       <div class="flex flex-row">
