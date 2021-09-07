@@ -7,7 +7,7 @@
 </svelte:head>
 
 <div
-  class="relative max-w-screen-xl p-4 px-4 mx-auto bg-white dark:bg-gray-800 sm:px-6 lg:px-8 py-26 lg:mt-20"
+  class="relative max-w-screen-xl p-4 px-4 mx-auto bg-warmGray-100 dark:bg-gray-800 sm:px-6 lg:px-8 py-26 lg:mt-20"
 >
   <div class="relative">
     <!--Grid here-->
@@ -198,7 +198,7 @@
 <!--Technology-->
 <section class="dark:bg-coolGray-800 dark:text-coolGray-100 mx-8">
   <div class="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
-    <h2 class="text-3xl sm:text-4xl font-bold">Technologies I'm familiar with</h2>
+    <h2 class="text-3xl text-gray-800 sm:text-4xl font-bold">Technologies I'm familiar with</h2>
     <div class="flex flex-wrap justify-center lg:justify-between">
       <ObjCard>
       <svg
@@ -335,7 +335,7 @@
 </section>
 <section class="dark:bg-coolGray-800 dark:text-coolGray-100 mx-8">
   <div class="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
-    <h2 class="text-3xl sm:text-4xl font-bold">Web Tools of choice</h2>
+    <h2 class="text-3xl sm:text-4xl text-gray-800 font-bold">Web Tools of choice</h2>
     <div class="flex flex-wrap justify-center lg:justify-between">
       <ObjCard>
       <svg       
@@ -426,7 +426,7 @@
 </section>
 <section class="dark:bg-coolGray-800 dark:text-coolGray-100 mx-8">
   <div class="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
-    <h2 class="text-3xl sm:text-4xl font-bold">Creative Tools of choice</h2>
+    <h2 class="text-3xl sm:text-4xl text-gray-800 font-bold">Creative Tools of choice</h2>
     <div class="flex flex-wrap justify-center lg:justify-between">
       <ObjCard>
       <i
