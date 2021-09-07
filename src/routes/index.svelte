@@ -22,13 +22,13 @@
   ];
 </script>
 
-<header>
+<header class="">
   <div>
     <div
       class="container flex flex-col items-center px-4 py-12 pb-24 mx-auto text-center lg:pb-56 md:py-8 md:px-10 lg:px-32"
     >
       <h1
-        class="relative z-10 pb-6 text-4xl font-black leading-tight text-center text-gray-800 sm:text-5xl md:text-7xl tracking-snug sm:leading-snug md:leading-tight"
+        class="z-10 pb-6 text-4xl font-black leading-tight text-center text-gray-800 sm:text-6xl tracking-snug sm:leading-snug md:leading-tight"
       >
         We don't just make content
         <br />
@@ -75,18 +75,18 @@
     />
   </div>
 </header>
-
-<section class="relative">
+  
+<section class="block">
   <div class="max-w-screen-xl mx-auto">
     <div class="px-6" />
   </div>
   <!--What I do-->
-  <div class="container px-8 py-8 mx-auto">
-    <h2 class="MD:text-5xl text-4xl text-center text-gray-900 text-extrabold">
+  <div class="px-8 py-8 mx-auto">
+    <h2 class="md:text-5xl text-4xl text-center text-gray-900 text-extrabold">
       So what do I do?
     </h2>
     <p class="mt-2 text-[1.3rem] text-center">Well, check them out yourself:</p>
-    <ol class="flex flex-col text-xl lg:flex-row lg:-mx-4">
+    <ol class="flex flex-col justify-center items-center text-xl lg:flex-row lg:mx-4">
       <li
         class="flex flex-col p-8 mt-8 bg-white rounded transition duration-300 shadow lg:w-1/3 lg:mx-4 hover:scale-105 hover:shadow-xl"
       >
@@ -105,7 +105,7 @@
         </picture>
         <p class="text-xl">01</p>
         <h3 class="my-2.5 font-semibold text-2xl">Content Creation</h3>
-        <p class="">We design content that <strong>actually</strong> matter to your audience.</p>
+        <p class="">From videos to blogs, we know exactly what matters to your audience.</p>
       </li>
       <li
         class="flex transition duration-300 flex-col p-8 mt-8 bg-white rounded shadow lg:w-1/3 lg:mx-4 hover:scale-105 hover:shadow-xl"
@@ -124,15 +124,13 @@
           />
         </picture>
         <p class="text-xl">02</p>
-        <h3 class="text-2xl my-2.5 font-semibold">Web Development</h3>
+        <h3 class="text-2xl my-2 font-semibold">Web Development</h3>
         <p class="mb-0">
-          Using only the best, each product developed is catered specifically to <strong
-            >your</strong
-          > needs.
+          Using only the best, each products is designed to delight your audience.
         </p>
       </li>
       <li
-        class="flex transition duration-300 flex-col p-8 mt-8 bg-white rounded shadow lg:w-1/3 lg:mx-4 hover:scale-105 hover:shadow-xl"
+        class="flex transition duration-300 flex-col p-8 mt-8 bg-white justify-center items-center rounded shadow lg:w-1/3 lg:mx-4 hover:scale-105 hover:shadow-xl"
       >
         <picture class="mb-4 text-center">
           <source
@@ -148,9 +146,9 @@
           />
         </picture>
         <p class="text-xl">03</p>
-        <h4 class="text-2xl font-semibold my-2.5">Strategy Development</h4>
+        <h4 class="text-2xl font-semibold my-2">Strategy Development</h4>
         <p class="mb-0">
-          Always having the right tools for the job, identifying and simplifying your problems is what we do best!
+          Whether it's content, tech, or inefficient workflows, we'll help you solve it
         </p>
       </li>
     </ol>
@@ -162,7 +160,7 @@
       Ready to take the next step?
     </h3>
     <p
-      class="max-w-3xl mx-auto mt-4 text-xl leading-7 text-left text-gray-500 lg:text-center"
+      class="max-w-3xl mx-auto mt-4 text-xl leading-7 text-left text-gray-500 sm:text-center"
     >
       Let's talk and see what we can do together
     </p>
@@ -171,11 +169,11 @@
         <input
           type="text"
           placeholder="example@email.com"
-          class="md:w-3/5 p-3 rounded sm:w-2/3"
+          class="md:w-56 p-3 rounded sm:w-2/3"
         />
         <button
           type="button"
-          class="w-2/5 p-3 font-semibold rounded-r-lg sm:w-1/3 dark:bg-violet-400 dark:text-coolGray-900"
+          class="p-3 font-semibold rounded-r-lg sm:w-1/3 transition duration-300 shadow border-gray-200 border-2 hover:bg-gray-300 hover:shadow-md "
           >Subscribe</button
         >
       </div>

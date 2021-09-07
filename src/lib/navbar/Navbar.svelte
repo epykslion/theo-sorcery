@@ -1,53 +1,37 @@
-<header
-  class="sticky top-0 left-0 right-0 z-30 flex justify-center items-center mx-auto w-full max-w-6xl h-16 bg-[#fcfcfc]"
->
-  <div class="container flex items-center justify-between px-6 mx-auto">
-    <a
-      href="/"
-      class="text-3xl font-black leading-10 text-gray-800 dark:text-white hover:underline hover:text-indigo-600"
-    >
-      Theo Nikolai
+
+<nav class="flex items-center pt-4 shadow-lg mb-10 max-w-screen">
+  <a href="/" class='flex items-center w-full ml-12 justify-center'>
+    <img src="whatsorcery-logo.png" class="mx-2" width="32" height="32" alt="what sorcery's logo"/>
+<p class="text-lg font-semibold text-center">Theo Niko</p></a>
+  <div class="px-2 flex items-stretch justify-center w-full">
+      <a href="/" class="btn btn-ghost inline btn-sm rounded-btn">
+              Home
+            </a> 
+      <!-- <a href="/portfolio" class="btn btn-ghost btn-sm rounded-btn">
+              Portfoliow-md
+            </a>  -->
+      <a href="/about" class="btn inline btn-ghost btn-sm rounded-btn">
+              About
+            </a> 
+      <a href="/contact" class="btn inline btn-ghost btn-sm rounded-btn">
+              Contact
+            </a>
+  </div> 
+  <div class="inline w-full justify-end">
+  <a href="https://linkedin.com/in/theonikolai">
+    <button class="btn btn-square btn-ghost">
+      <i class="fab fa-linkedin fa-2x"></i>
+    </button> 
     </a>
-    <div class="flex items-center">
-      <nav
-        class="items-center hidden text-lg text-gray-800 uppercase font-sen dark:text-white lg:flex"
-      >
-        <a
-          href="/"
-          class="flex px-6 py-2 hover:underline hover:text-indigo-600"
-        >
-          Home
-        </a>
-        <a
-          href="about"
-          class="flex px-6 py-2 hover:underline hover:text-indigo-600"
-        >
-          About
-        </a>
-        <!-- <a
-          href="/portfolio"
-          class="flex px-6 py-2 hover:underline hover:text-indigo-600"
-        >
-          Portfolio
-        </a> -->
-        <!-- <a
-          href="/blog"
-          class="flex px-6 py-2 hover:underline hover:text-indigo-600"
-        >
-          Blog
-        </a> -->
-        <a
-          href="/contact"
-          class="flex px-6 py-2 hover:underline hover:text-indigo-600"
-        >
-          Contact
-        </a>
-      </nav>
-      <button class="flex flex-col ml-4 lg:hidden">
-        <span class="w-6 h-1 mb-1 bg-gray-800 dark:bg-white" />
-        <span class="w-6 h-1 mb-1 bg-gray-800 dark:bg-white" />
-        <span class="w-6 h-1 mb-1 bg-gray-800 dark:bg-white" />
-      </button>
-    </div>
+  <a href="https://twitter.com/theonikomao">
+    <button class="btn btn-square btn-ghost">
+      <i class="fab fa-twitter fa-2x"></i>
+    </button> 
+    </a>
+    <a href="https://github.com/theonikomao">
+    <button class="btn btn-square btn-ghost">
+      <i class="fab fa-github fa-2x"></i>
+    </button>
+    </a>
   </div>
-</header>
+</nav>

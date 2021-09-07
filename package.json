@@ -9,15 +9,15 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-vercel": "next",
 		"@sveltejs/adapter-netlify": "^1.0.0-next.30",
+		"@sveltejs/adapter-vercel": "next",
 		"@sveltejs/kit": "next",
 		"@tailwindcss/aspect-ratio": "^0.2.1",
 		"@tailwindcss/forms": "^0.3.3",
 		"@tailwindcss/line-clamp": "^0.2.1",
 		"@tailwindcss/typography": "^0.4.1",
-		"@typescript-eslint/eslint-plugin": "^4.30.0",
-		"@typescript-eslint/parser": "^4.30.0",
+		"@typescript-eslint/eslint-plugin": "^4.31.0",
+		"@typescript-eslint/parser": "^4.31.0",
 		"autoprefixer": "^10.3.4",
 		"cssnano": "^5.0.8",
 		"daisyui": "^1.14.0",
@@ -33,16 +33,14 @@
 		"prettier-plugin-svelte": "^2.4.0",
 		"svelte": "^3.42.4",
 		"svelte-check": "^2.2.5",
-		"svelte-preprocess": "^4.8.0",
-		"tailwindcss": "^2.2.9",
+		"svelte-preprocess": "^4.9.1",
+		"tailwindcss": "^2.2.10",
 		"tslib": "^2.3.1",
 		"typescript": "^4.4.2",
 		"vite": "^2.5.3"
 	},
 	"dependencies": {
-		"@carbon/icons": "^10.37.0",
-		"@fortawesome/free-solid-svg-icons": "^5.15.4",
-		"svelte-fa": "^2.3.3",
+		"@fortawesome/fontawesome-free": "^5.15.4",
 		"svelte-meta-tags": "^1.1.1"
 	}
 }

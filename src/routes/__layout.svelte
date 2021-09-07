@@ -5,7 +5,5 @@
 </script>
 
 <Navbar />
-<main class="max-w-6xl mt-16 mb-4">
-  <slot />
-</main>
+  <slot></slot>
 <Footer />
