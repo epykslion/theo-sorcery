@@ -7,3 +7,5 @@ Continuously a work in progress, here are some features I hope to implement
 - [ ] implement the blog section
 - [ ] implement the resources section
 - [ ] figure out how dropdowns work to separate my work
+
+Built with <a href='https://kit.svelte.dev'>Sveltekit</a> and <a href='https://tailwindcss.com'>TailwindCSS</a>
