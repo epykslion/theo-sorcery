@@ -2,9 +2,25 @@
   import Header from "$lib/header/Header.svelte";
   let videos = [
     {
+      title: "Showreel 2020",
+      client: "Various",
+      tag: "Video",
+      caption: "My showreel from 2020, featuring some of my latest work of that year",
+      id: "ZGA-ILL6dkQ",
+      alt: "A boy with a headband holding up a rasengan",
+    },
+    {
+      title: "Japanese Garlic Fried Rice",
+      client: "None",
+      tag: "Video",
+      caption: "A cooking video, inspired by <a class='text-blue-500 underline font-semibold hover:font-bold hover:text-blue-600' href='https://www.youtube.com/watch?v=86QgYvlWEU0'>Alvin's cooking videos</a> from Tasty",
+      id: "DvqI1LAlARY",
+      alt: "A bowl of delicious Japanese garlic fried rice",
+    },
+    {
       title: "Cheong Kwan Jang Ninjas",
       client: "Beat Nation",
-      tag: ["comedy", "commercial", "visual effects"],
+      tag: "Video",
       caption:
         "A parody commercial commissioned for the South Korean Ginseng company, Korea Ginseng Corporation",
       id: "LSXGokGMxLc",
@@ -13,7 +29,7 @@
     {
       title: "I Wanna Dance With Somebody",
       client: "An Honest Mistake",
-      tag: "music video",
+      tag: "Video",
       caption:
         "Whitney Houston's Classic, performed by Malaysian Pop Punk band, An Honest Mistake",
       id: "teGZOg8Ne74",
@@ -31,23 +47,24 @@
   <span slot="title">My video portfolio</span>
   <span slot="subtitle">What would you like to watch?</span>
 </Header>
-{#each videos as { title, caption, id, alt, client }}
+{#each videos as { title, caption, id, alt, client, tag }}
   <a
-    class="justify-center group z-0 transition duration-300 max-w-xl mx-auto bg-white drop-shadow flex flex-col hover:scale-105 hover:z-20 hover:drop-shadow-md"
+    class="justify-center group z-0 transition duration-300 max-w-2xl filter group mx-auto bg-white drop-shadow flex flex-col hover:scale-105 hover:z-20 hover:drop-shadow-md"
     href="https://www.youtube.com/watch?v={id}"
   >
     <article
-      class="flex flex-wrap items-center justify-center pb-6 my-4 transition-all shadow-lg md:pb-16 md:flex-nowrap lg:max-w-5xl xl:pb-0 md:text-left hover:shadow-xl border hover:text-indigo-800 hover:bg-indigo-200"
+      class="flex flex-wrap items-center justify-center pb-6 my-4 transition-all text-coolGray-600 shadow-lg md:pb-16 md:flex-nowrap lg:max-w-5xl xl:pb-0 md:text-left group-hover:shadow-xl border group-hover:text-blueGray-800 group-hover:bg-indigo-200"
     >
-      <img
-        class="w-screen mb-2 xs:w-auto"
+      <img 
+        class="w-screen mb-2 sm:w-72 drop-shadow sm:h-max hover:scale-105 hover:drop-shadow-xl hover:-translate-y-1 filter transition duration-300"
         src="https://i.ytimg.com/vi/{id}/mqdefault.jpg"
         {alt}
       />
       <div class="flex px-2 flex-col md:ml-4 md:pr-8">
         <h2 class="text-xl mt-2 font-bold">{title}</h2>
-        <p class="mt-1 mb-2 text-gray-500">Client: {client}</p>
-        <p class="font-medium md:mb-2">{caption}</p>
+        <p class="text-xs my-0.5 text-gray-500">Client: {client}</p>
+        <p class="font-medium leading-snug md:mb-2">{@html caption}</p>
+        <p class="text-xs relative -translate-y-1 -translate-x-1 border-2 font-semibold border-violet-200 bg-violet-300 py-1 px-2 w-max rounded-full group-hover:drop-shadow-sm filter transition duration-300">{tag}</p>
       </div>
     </article>
   </a>

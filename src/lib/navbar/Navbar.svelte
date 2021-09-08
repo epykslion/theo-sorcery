@@ -1,5 +1,5 @@
 
-<nav class="fixed w-screen z-50 bg-warmGray-50 shadow-md">
+<nav class="fixed w-screen z-50 bg-coolGray-50 shadow-md">
   <div class="flex justify-between max-w-screen-lg items-center mx-auto p-2">
     <a href="/" class='font-extralight text-center tracking-widest leading-4 text-[0.9rem] uppercase inline-block'>Theo <br/><span class="text-[0.975rem]">Niko</span></a>
 <div class="flex justify-evenly text-[0.85rem] items-center">

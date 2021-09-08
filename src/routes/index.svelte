@@ -1,8 +1,6 @@
 <header class="container flex flex-col items-center px-4 py-4 mx-auto text-center h-4/5"
     >
-      <h1
-        class="z-10 pb-6 text-2xl font-black leading-tight text-center text-gray-800 sm:text-6xl tracking-snug sm:leading-snug md:leading-tight"
-      >
+      <h1 class="relative z-10 pb-6 text-4xl font-black leading-tight text-center text-gray-800 sm:text-5xl md:text-6xl tracking-snug sm:leading-snug md:leading-tight">
         We don't just make content
         <br />
         <span class="relative inline-flex">
@@ -23,7 +21,7 @@
         </a>
         <a href="/about">
           <button
-            class="px-8 py-3 m-1 text-xl scale-90 text-gray-600 border-2 border-gray-600 hover:drop-shadow-xl filter hover:-text-black transition duration-300 hover:border-black hover:text-gray-800 hover:-translate-y-1"
+            class="px-8 py-3 m-1 text-xl scale-90 text-gray-600 border-2 border-gray-600 hover:drop-shadow-xl filter hover:-text-black transition duration-300 hover:border-black bg-coolGray-50 hover:text-gray-800 hover:-translate-y-1"
             >Learn more</button
           >
         </a>
@@ -57,7 +55,7 @@
     <p class="mt-2 text-[1.3rem] text-center">Well, check them out yourself:</p>
     <ol class="flex flex-col justify-center items-center text-xl lg:flex-row lg:mx-4">
       <li
-        class="flex flex-col p-8 mt-8 bg-white rounded transition duration-300 shadow lg:w-1/5 lg:mx-4 hover:scale-105 hover:shadow-xl"
+        class="flex flex-col p-8 mt-8 bg-coolGray-50 rounded transition duration-300 shadow lg:w-1/5 lg:mx-4 hover:scale-105 hover:shadow-xl"
       >
         <picture class="mb-4 text-center">
           <source
@@ -77,7 +75,7 @@
         <p class="">From videos to blogs, we know exactly what matters to your audience.</p>
       </li>
       <li
-        class="flex transition duration-300 flex-col p-8 mt-8 bg-white rounded shadow lg:w-1/5 lg:mx-4 hover:scale-105 hover:shadow-xl"
+        class="flex transition duration-300 flex-col p-8 mt-8 bg-coolGray-50 rounded shadow lg:w-1/5 lg:mx-4 hover:scale-105 hover:shadow-xl"
       >
         <picture class="mb-4 text-center">
           <source
@@ -99,7 +97,7 @@
         </p>
       </li>
       <li
-        class="flex transition duration-300 flex-col p-8 mt-8 bg-white justify-center items-center rounded shadow lg:w-1/5 lg:mx-4 hover:scale-105 hover:shadow-xl"
+        class="flex transition duration-300 flex-col p-8 mt-8 bg-coolGray-50 justify-center items-center rounded shadow lg:w-1/5 lg:mx-4 hover:scale-105 hover:shadow-xl"
       >
         <picture class="mb-4 text-center">
           <source
@@ -133,7 +131,7 @@
     >
       Subscribe to our newsletter below!
     </p>
-    <form class="container flex items-center justify-center mx-auto my-4 w-7xl">
+    <form novalidate name="subscription" method="POST" data-netlify="true" class="container flex items-center justify-center mx-auto my-4 w-7xl">
       <div class="flex flex-row">
         <input
           type="text"
