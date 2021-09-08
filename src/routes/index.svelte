@@ -1,27 +1,3 @@
-<script>
-  let videos = [
-    {
-      title: "Cheong Kwan Jang Ninjas",
-      client: "Beat Nation",
-      tag: ["comedy", "commercial", "visual effects"],
-      caption:
-        "A parody commercial commissioned for the South Korean Ginseng company, Korea Ginseng Corporation",
-      id: "LSXGokGMxLc",
-      alt: "A box of Cheong Kwan Jang Korean Ginseng, sitting pleasantly on a fluffy red pillow. #totallynotsellingout",
-    },
-    {
-      title: "I Wanna Dance With Somebody",
-      client: "An Honest Mistake",
-      tag: "music video",
-      caption:
-        "Whitney Houston's Classic, performed by Malaysian Pop Punk band, An Honest Mistake",
-      id: "teGZOg8Ne74",
-      alt: "I Wanna Dance With Somebody, covered by An Honest Mistake, featuring Haziq from I Lost The Plot",
-    },
-    //{ title: '', client: '', tag: '', caption: '', href: '', src: '', alt: '' }
-  ];
-</script>
-
 <header class="container flex flex-col items-center px-4 py-4 mx-auto text-center h-4/5"
     >
       <h1
@@ -41,40 +17,41 @@
       <div class="flex flex-wrap justify-center">
         <a href="/contact">
           <button
-            class="px-8 py-3 m-1.5 text-xl font-bold text-white border-2 bg-gray-800 hover:bg-black hover:shadow-lg transition duration-300 hover:-translate-y-1"
+            class="px-8 py-3 m-1 text-xl scale-90 font-bold text-white border-2 bg-gray-800 hover:bg-black filter hover:drop-shadow-xl transition duration-300 hover:-translate-y-1"
             >Get in touch</button
           >
         </a>
         <a href="/about">
           <button
-            class="px-8 py-3 m-1.5 text-xl text-gray-600 border-2 border-gray-600 hover:shadow-lg hover:-text-black transition duration-300 hover:border-black hover:-translate-y-1"
+            class="px-8 py-3 m-1 text-xl scale-90 text-gray-600 border-2 border-gray-600 hover:drop-shadow-xl filter hover:-text-black transition duration-300 hover:border-black hover:text-gray-800 hover:-translate-y-1"
             >Learn more</button
           >
         </a>
       </div>
 </header>
 <!--Image-->
+<a href="/work">
 <section
     class="container inline-flex items-center justify-center transition duration-300 group hover:scale-95">
     <p
       class="absolute text-2xl hidden md:text-4xl font-extrabold text-gray-900 group-hover:block"
     >
-      The portfolio is still being built,<br />please come back shortly
+      Check out our latest work<br />by <span class="cursor-pointer hover:text-indigo-700 hover:scale-105 underline text-indigo-900">clicking here</span>
     </p>
     <img
       src="/photos/osakajo/osakajo-5.webp"
       alt=""
       class="w-full sm:h-[400] sm:w-auto mx-auto transition duration-300 rounded-lg shadow-md group-hover:opacity-30"
     />
-</section>
+</section></a>
   
 <section class="block">
   <div class="max-w-screen-xl mx-auto">
     <div class="px-6" />
   </div>
   <!--What I do-->
-  <div class="px-8 py-8 mx-auto">
-    <h2 class="md:text-5xl text-4xl text-center text-gray-900 text-extrabold">
+  <div class="p-6 mx-auto">
+    <h2 class="md:text-5xl text-3xl text-center text-gray-900 text-extrabold">
       So what do I do?
     </h2>
     <p class="mt-2 text-[1.3rem] text-center">Well, check them out yourself:</p>

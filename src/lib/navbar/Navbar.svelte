@@ -1,12 +1,12 @@
 
-<nav class="fixed w-screen z-50 bg-warmGray-50 items-center shadow-md">
-  <div class="flex justify-between max-w-screen-lg mx-auto p-2">
+<nav class="fixed w-screen z-50 bg-warmGray-50 shadow-md">
+  <div class="flex justify-between max-w-screen-lg items-center mx-auto p-2">
     <a href="/" class='font-extralight text-center tracking-widest leading-4 text-[0.9rem] uppercase inline-block'>Theo <br/><span class="text-[0.975rem]">Niko</span></a>
-<div class="inline-flex justify-self-end space-x-2 text-[0.85rem] items-center">
+<div class="flex justify-evenly text-[0.85rem] items-center">
       <a href="/" class="mx-[0.2rem] sm:mx-8">
               Home
             </a> 
-      <a href="/work" class="mx-[0.2rem] sm:mx-8 w-1/6">
+      <a href="/work" class="mx-[0.2rem] sm:mx-8">
               Work
             </a> 
       <a href="/about" class="mx-[0.2rem] sm:mx-8">
