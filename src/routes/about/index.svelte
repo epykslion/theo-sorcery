@@ -27,11 +27,11 @@
           experiences
         </h1>
         <p class="mt-4 text-xl leading-6 text-gray-500">
-          After working several years as a filmmaker, I suffered a massive burnout only to rediscover a new passion for startups, tech, and product development - eventually becoming a consultant.<br /><br />
+          After working several years as a filmmaker, I suffered massive burnout only to rediscover a new passion for startups, tech, and product development - eventually becoming a consultant.<br /><br />
           Now, alongside <a href="https://hannahazlan.com">Hannah Azlan</a>, we're developing several products and services to help rebuild the startup landscape.
         </p>
         <br/>
-        <h2 class="text-xl">Here's what can I do</h2>
+        <h2 class="text-xl">Here's what I do</h2>
         <!--Skills-->
         <ul class="gap-6 mt-8 md:grid md:grid-cols-2">
           <li class="mt-6 lg:mt-0">
