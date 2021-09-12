@@ -27,8 +27,8 @@
           experiences
         </h1>
         <p class="mt-4 text-xl leading-6 text-gray-500">
-          After working several years as a filmmaker, I suffered massive burnout only to rediscover a new passion for startups, tech, and product development - eventually becoming a consultant.<br /><br />
-          Now, alongside <a href="https://hannahazlan.com">Hannah Azlan</a>, we're developing several products and services to help rebuild the startup landscape.
+          In 2020, I burned out immensely only to discover my passion for products, development and tech - eventually becoming an inbound consultant for startups.<br /><br />
+          Now, alongside <a class="font-semibold transition duration-300 hover:underline text-blueGray-600 hover:text-blueGray-700 hover:font-extrabold" href="https://hannahazlan.com">Hannah Azlan</a>, we're developing several products and services to help rebuild the startup landscape.
         </p>
         <br/>
         <h2 class="text-xl">Here's what I do</h2>
@@ -159,7 +159,7 @@
       <!--Photography-->
       <div class="relative mt-10 lg:-mx-4 relative-20 lg:mt-0 lg:col-start-1">
         <div class="relative space-y-4">
-          <h2 class="text-2xl sm:hidden font-semibold">Samples of my photography</h2>
+          <h2 class="text-2xl font-semibold sm:hidden">Samples of my photography</h2>
           <div class="flex items-end justify-center space-x-4 lg:justify-start">
             <img
               class="w-32 rounded-lg shadow-lg md:w-56"
@@ -178,7 +178,7 @@
             class="flex items-start justify-center ml-12 space-x-4 lg:justify-start"
           >
             <img
-              class="w-28 rounded-lg shadow-lg md:w-40"
+              class="rounded-lg shadow-lg w-28 md:w-40"
               width="170"
               src="/photos/portfolio/prudential-event-photography.webp"
               alt="Prudential Event Photography"
@@ -196,9 +196,9 @@
   </div>
 </div>
 <!--Technology-->
-<section class="dark:bg-coolGray-800 dark:text-coolGray-100 mx-8">
+<section class="mx-8 dark:bg-coolGray-800 dark:text-coolGray-100">
   <div class="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
-    <h2 class="text-3xl text-gray-800 sm:text-4xl font-bold">Technologies I'm familiar with</h2>
+    <h2 class="text-3xl font-bold text-gray-800 sm:text-4xl">Technologies I'm familiar with</h2>
     <div class="flex flex-wrap justify-center lg:justify-between">
       <ObjCard>
       <svg
@@ -333,9 +333,9 @@
     </div>
   </div>
 </section>
-<section class="dark:bg-coolGray-800 dark:text-coolGray-100 mx-8">
+<section class="mx-8 dark:bg-coolGray-800 dark:text-coolGray-100">
   <div class="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
-    <h2 class="text-3xl sm:text-4xl text-gray-800 font-bold">Web Tools of choice</h2>
+    <h2 class="text-3xl font-bold text-gray-800 sm:text-4xl">Web Tools of choice</h2>
     <div class="flex flex-wrap justify-center lg:justify-between">
       <ObjCard>
       <svg       
@@ -424,9 +424,9 @@
     </div>
   </div>
 </section>
-<section class="dark:bg-coolGray-800 dark:text-coolGray-100 mx-8">
+<section class="mx-8 dark:bg-coolGray-800 dark:text-coolGray-100">
   <div class="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
-    <h2 class="text-3xl sm:text-4xl text-gray-800 font-bold">Creative Tools of choice</h2>
+    <h2 class="text-3xl font-bold text-gray-800 sm:text-4xl">Creative Tools of choice</h2>
     <div class="flex flex-wrap justify-center lg:justify-between">
       <ObjCard>
       <i
@@ -453,7 +453,7 @@
         <img 
         src="https://theme.zdassets.com/theme_assets/9876708/2993b0431fd68dc0833b90ae5fd545b066c257e8.png" 
         alt="Descript's Logo"
-        class="grayscale brightness-0 transition duration-200 group-hover:drop-shadow-lg -translate-y-1 group-hover:brightness-100 group-hover:grayscale-0 filter mx-2 my-auto w-11 h-11" height="24" width="24"/>
+        class="mx-2 my-auto transition duration-200 -translate-y-1 grayscale brightness-0 group-hover:drop-shadow-lg group-hover:brightness-100 group-hover:grayscale-0 filter w-11 h-11" height="24" width="24"/>
         <span slot="product">Descript</span>
       <span slot="text">A video editor that edits like a doc!</span>
       </ObjCard>
@@ -522,7 +522,7 @@
       </ObjCard>
       <ObjCard>
       <i
-      class="fab fa-hubspot transition duration-200 stroke-3 group-hover:text-orange-400 group-hover:drop-shadow-lg fa-3x filter drop-shadow w-12 h-12 ml-2 mr-4 my-auto fill-current"
+      class="w-12 h-12 my-auto ml-2 mr-4 transition duration-200 fill-current fab fa-hubspot stroke-3 group-hover:text-orange-400 group-hover:drop-shadow-lg fa-3x filter drop-shadow"
       title="hubspot"
       alt="hubspot"
       ></i>
