@@ -57,7 +57,7 @@
 
 <header class="container flex flex-col items-center px-4 py-5 mx-auto text-center h-4/5"
     >
-      <h1 class="relative z-10 pb-6 text-4xl font-black leading-tight text-center text-gray-800 sm:text-5xl md:text-6xl tracking-snug sm:leading-snug md:leading-tight">
+      <h1 class="relative z-10 pb-6 text-4xl font-black leading-tight text-center text-gray-800 md:text-5xl tracking-snug sm:leading-snug md:leading-tight">
         We don't just make content
         <br />
         <span class="relative inline-flex">
@@ -102,7 +102,7 @@
 </section>
   <!--Clients-->
   <section class="container mx-auto my-2 overflow-hidden text-center">
-    <p class="block w-2/3 mx-auto mb-3 text-2xl leading-normal text-gray-600 md:inline-block md:w-full">Trusted by the following brands</p>
+    <p class="block w-2/3 mx-auto mb-3 text-2xl font-semibold leading-normal text-[#666] sm:text-3xl md:inline-block md:w-full">Trusted by the following brands</p>
     <div class="relative flex flex-wrap items-center justify-center mx-auto sm:w-2/3">
       {#each CLIENTS as {brand, src}}
       <div><img title="{brand}" src="/icons/{src}.svg" alt="{brand}" class="h-5 mx-3 my-2 opacity-50 sm:h-8 sm:mx-3 sm:my-1 md:mx-4 md:my-3 filter grayscale"></div>
@@ -118,7 +118,7 @@
      <div class="container relative flex flex-col items-start max-w-6xl px-6 py-12 mx-auto shadow-sm bg-gradient-to-bl sm:px-16 sm:pt-24 from-blueGray-800 to-sky-800 rounded-3xl md:flex-row">
     <div class="flex flex-col flex-wrap text-left lg:mb-16 md:w-3/5 lg:pr-24 md:pr-16 md:items-start md:mb-0">
       <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player class="w-screen sm:scale-150 sm:mr-12 sm:absolute sm:right-12" src="https://assets3.lottiefiles.com/packages/lf20_buratoqa.json"  background="transparent"  speed="1"  style="width: 290px; height: 290px;"  loop autoplay></lottie-player>
+        <lottie-player class="w-screen sm:scale-110 md:mr-12 md:absolute lg:scale-150 sm:right-4" src="https://assets3.lottiefiles.com/packages/lf20_buratoqa.json"  background="transparent"  speed="1"  style="width: 290px; height: 290px;"  loop autoplay></lottie-player>
       <h2 class="mb-4 text-2xl font-black tracking-tight sm:mb-8 sm:text-4xl text-gray-50 md:text-4xl" style="opacity: 1; transform: translateY(0px);">
       Content Creation Services, Tailored to your Brand
       </h2>
@@ -137,19 +137,27 @@
   </div>
 </section>
 
-<section class="relative py-3 mx-4 lg:mx-0">
-    <div class="relative sm:absolute">
-      <img class="filter sm:scale-90 drop-shadow-lg" width="1080" height="720" src="/assets/browser-mockup.webp" alt="a mockup of a portfolio website in Safari's browser"/></div>
-  <div class="container z-10 flex flex-col items-start max-w-6xl px-6 py-16 mx-auto overflow-hidden bg-top bg-cover shadow-sm bg-gradient-to-br from-sky-800 to-blueGray-800 rounded-3xl lg:py-20 lg:px-16">
-    <div class="flex flex-col text-left lg:ml-auto lg:mb-16 lg:pl-24 md:pl-16 md:w-1/2 md:items-start md:mb-0 ">
-      <h2 class="mb-4 text-3xl font-black sm:text-4xl filter drop-shadow-sm text-blueGray-50 md:text-4xl" style="opacity: 1; transform: translateY(0px);">
-        Beautiful websites, built blazingly fast with even <span class="font-serif italic text-amber-500">Faster technology.
+
+<section class="py-2 mx-4 mt-12">
+  <div class="container relative flex flex-col max-w-6xl px-6 py-12 mx-auto overflow-hidden shadow-sm max-w-screen bg-gradient-to-br from-sky-800 to-blueGray-800 rounded-3xl">
+		<div class="relative z-50 transition-transform ease-in-out shadow-lg skew-x-2 h-max duration-400 -rotate-2 md:absolute md:translate-x-64 lg:-translate-x-32 xl:-translate-x-24">
+			<img
+			class="z-50 mb-6 rounded-xl md:mb-0"
+			width="590"
+			height="360"
+			src="/assets/browser-mockup.webp"
+			alt="a mockup of a portfolio website in Safari's browser"
+			/>
+		</div>
+    <div class="flex flex-col text-left filter drop-shadow-sm lg:ml-auto lg:mb-4 lg:pl-36 md:pl-16 md:w-2/3 md:items-start md:mb-0 ">
+      <h2 class="mb-4 text-3xl font-black filter drop-shadow-sm text-blueGray-50 md:text-4xl" style="opacity: 1; transform: translateY(0px);">
+        Beautiful websites, built blazingly fast with much <span class="font-serif italic text-amber-500">Faster Technology.
       </span></h2>
       <p class="text-xl leading-wider text-gray-50 text-opacity-70">
-      No-Code? We know code.<br class="my-2"/>A slow website could mean thousands for your business
+      Code or No-Code, we provide stunning<br class="hidden sm:block" /> user experiences, pre-loaded with all that SEO-goodness.
       </p>
        <div class="flex mt-12">
-        <a href="/contact" type="button" class="inline-flex items-center px-8 py-2 my-2 text-lg font-medium text-center transition duration-500 ease-in-out transform border border-transparent rounded-lg text-gray-50 bg-emerald-600 lg:px-12 hover:bg-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blueGray-800">
+        <a href="/contact" type="button" class="inline-flex items-center px-8 py-2 my-2 text-lg font-medium text-center transition duration-300 ease-in-out transform border border-transparent rounded-lg text-gray-50 bg-emerald-600 lg:px-12 hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blueGray-800">
           Find out how
           <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-3 -mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>

@@ -25,7 +25,6 @@ const config = {
     preprocess: [preprocess({
         "postcss": true
     }), mdsvex(mdsvexConfig)],
-
     kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
         adapter: netlify(),

@@ -19,8 +19,7 @@ const config = {
 			violet: colors.violet,
 			indigo: colors.indigo,
 			blue: colors.blue,
-			lightBlue: colors.lightBlue, // Only in Tailwind CSS <=v2.1
-			sky: colors.sky, // As of Tailwind CSS v2.2, `lightBlue` has been renamed to `sky`  
+			sky: colors.sky, // As of Tailwind CSS v2.2, `lightBlue` has been renamed to `sky`
 			cyan: colors.cyan,
 			teal: colors.teal,
 			emerald: colors.emerald,

@@ -18,16 +18,16 @@ module.exports = {
 				},
 			},
 		},
-		'@storybook/preset-scss',
+		// '@storybook/preset-scss',
 	],
 	svelteOptions: {
 		preprocess: [
 			sveltePreprocess({
 				postcss: true,
-				scss: {
-					prependData: `@import 'src/styles/variables/index.scss';`,
-					outputStyle: 'compressed',
-				},
+				// scss: {
+				// 	prependData: `@import 'src/styles/variables/index.scss';`,
+				// 	outputStyle: 'compressed',
+				// },
 				preserve: ['ld+json'],
 			}),
 		],
