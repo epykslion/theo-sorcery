@@ -46,14 +46,14 @@
   ];
 </script> -->
 
-<footer class="container bottom-0 relative left-0 right-0 w-max mx-auto py-4">
-  <a href="/" class="group"
+<footer class="container relative bottom-0 left-0 right-0 py-4 mx-auto w-max">
+  <a sveltekit:prefetch href="/" class="group"
     ><img
       src="whatsorcery-logo.png"
       height="32"
       width="32"
       title="mao"
-      class=" inline mr-2 shadow group-hover:shadow-lg"
+      class="inline mr-2 shadow  group-hover:shadow-lg"
       alt="what sorcery logo"
     />
     <!-- <p class="font-medium leading-tight track">More features<br />coming soon!</p>
@@ -86,7 +86,7 @@
     </div>
   </div> -->
 
-    <p class="inline sm:text-xl sm:tracking-widest text-base tracking-wider text-center group-hover:underline">
+    <p class="inline text-base tracking-wider text-center sm:text-xl sm:tracking-widest group-hover:underline">
       Created by Theo Nikolai Idris
     </p>
   </a>

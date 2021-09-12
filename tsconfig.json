@@ -11,6 +11,8 @@
 		"importsNotUsedAsValues": "error",
 		"isolatedModules": true,
 		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
 		/**
 			To have warnings/errors of the Svelte compiler at the correct position,
 			enable source maps by default.
@@ -22,6 +24,7 @@
 		"baseUrl": ".",
 		"allowJs": true,
 		"checkJs": true,
+		"types": ["node", "yargs", "cookie", "node-fetch", "nprogress", "marked", "prismjs"],
 		"paths": {
 			"$lib": ["src/lib"],
 			"$lib/*": ["src/lib/*"],

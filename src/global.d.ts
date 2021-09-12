@@ -62,4 +62,7 @@ declare module '*.webp' {
 }
 
 // Start: Interfaces
-
+interface clients {
+	brand: string;
+	src: string;
+}

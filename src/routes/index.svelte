@@ -1,6 +1,4 @@
 <script lang="ts">
-import LTmail from '$lt/LTmail/LTmail.svelte';
-
   const CLIENTS = [
     {
       brand: "Microsoft",

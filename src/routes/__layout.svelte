@@ -18,7 +18,7 @@
 <NavigationBar/>
 
 <main class="pt-20">
-  <slot></slot>
+	<slot />
 </main>
 
 <Footer/>

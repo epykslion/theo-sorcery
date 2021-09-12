@@ -1,0 +1,26 @@
+{
+	"cSpell.enableFiletypes": [
+		"!cpp",
+		"!csharp",
+		"!go",
+		"!handlebars",
+		"!haskell",
+		"!jade",
+		"!java",
+		"!scala",
+		"astro",
+		"astro-markdown",
+		"blade",
+		"dotenv",
+		"editorconfig",
+		"jsx",
+		"mdx",
+		"r",
+		"svelte",
+		"svg",
+		"toml",
+		"vue",
+		"windi"
+	],
+	"cSpell.language": "en-GB"
+}

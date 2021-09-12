@@ -53,7 +53,6 @@ const modifiedBlogs: { metadata: IBlog }[] = posts
 			? 1
 			: 0,
 	);
-
 const pathToWorkspaceJSON = './sveltekit-space.json';
 
 const filterArguments = (argv: string[], flag: string): string[] =>

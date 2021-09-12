@@ -1,13 +1,13 @@
 ---
 title: Writing User Story Flows
-description: 
+description:
 author: Theodore Nikolai Idris
 twitter: https://twitter.com/theonikomao
 linkedin: https://linkedin.com/in/theonikolai
 instagram: https://instagram.com/theonikolai
 ---
 
-# Rethinking User Stories
+# {title}
 
 While writing user personas may seem daunting, they aren't.
 
@@ -24,9 +24,7 @@ There are a number of frameworks available but your should always ask yourself:-
 1. What problems were they facing that led to them searching for your solution?
 2. What did they do to find a solution to their problem? (did they search on LinkedIn, ask for referrals...)
 3. What were their frustrations with other solutions they've tried to fix their problems?
-4. Why would they consider your product after experiencing similar solutions, or worse yet - if they haven't even heard of your prouct?
+4. Why would they consider your product after experiencing similar solutions, or worse yet - if they haven't even heard of your product?
 5. What is it about your product or your content that prompted them to approach you in the first place.
 
-With that in mind, try to write down your users' journey as descriptive as you can. If you ever get stuck, try being inspirated by your own experiences. Chances are, someone else already shares the same frustrations as you do.
-
-
+With that in mind, try to write down your users' journey as descriptive as you can. If you ever get stuck, think back on your own experiences. Chances are, someone else already shares the same frustrations as you do.
