@@ -1,3 +1,60 @@
+<script lang="ts">
+  const CLIENTS = [
+    {
+      brand: "Microsoft",
+      src: "microsoft"
+    },
+    {
+      brand: "An Honest Mistake",
+      src: "an-honest-mistake"
+    },
+    {
+      brand: "Bausch and Lomb",
+      src: "bausch-and-lomb"
+    },
+    {
+      brand: "BFM",
+      src: "bfm"
+    },
+    {
+      brand: "Blackberrys",
+      src: "blackberrys"
+    },
+    {
+      brand: "Carlsberg",
+      src: "carlsberg"
+    },
+    {
+      brand: "Cheong Kwan Jang",
+      src: "cheong-kwan-jang"
+    },
+    {
+      brand: "Google",
+      src: "google"
+    },
+    {
+      brand: "Listerine",
+      src: "listerine"
+    },
+    {
+      brand: "Mytaman",
+      src: "mytaman"
+    },
+    {
+      brand: "Petronas",
+      src: "Petronas"
+    },
+    {
+      brand: "Schneider Electric",
+      src: "schneider-electric"
+    },
+    {
+      brand: "Skechers",
+      src: "skechers"
+    },
+  ]
+</script>
+
 <header class="container flex flex-col items-center px-4 py-4 mx-auto text-center h-4/5"
     >
       <h1 class="relative z-10 pb-6 text-4xl font-black leading-tight text-center text-gray-800 sm:text-5xl md:text-6xl tracking-snug sm:leading-snug md:leading-tight">
@@ -38,12 +95,20 @@
     </p>
     <img
       src="/photos/osakajo/osakajo-5.webp"
-      alt=""
+      alt="A beautiful shot of Osakajo's garden"
       class="w-full sm:h-[400] sm:w-auto mx-auto transition duration-300 rounded-lg shadow-md group-hover:opacity-30"
     />
 </section></a>
-  
-<section class="block">
+  <!--Clients-->
+  <div class="container mx-auto text-center overflow-hidden">
+    <p class="text-grey-darker mb-5 block mx-auto leading-normal md:inline-block w-2/3 md:w-full">Used by designers and developers from <span class="font-lf-bold">70,000+ companies</span> worldwide</p>
+    <div class="flex flex-wrap items-center justify-center relative">
+      {#each CLIENTS as {brand, src}}
+      <div><img title="{brand}" src="/icons/{src}.svg" alt="{brand}" class="h-5 sm:h-8 mx-3 my-1 sm:mx-3 sm:my-1 md:mx-4 md:my-3 opacity-25"></div>
+      {/each}
+      </div>
+      </div>
+  <section class="block">
   <div class="max-w-screen-xl mx-auto">
     <div class="px-6" />
   </div>
@@ -133,6 +198,7 @@
     </p>
     <form novalidate name="subscription" method="POST" data-netlify="true" class="container flex items-center justify-center mx-auto my-4 w-7xl">
       <div class="flex flex-row">
+      <label for="name">Name<input type="text" placeholder="John Doe" class="mdw-56 p-3 smw-2/3 block"/></label>
         <input
           type="text"
           placeholder="example@email.com"

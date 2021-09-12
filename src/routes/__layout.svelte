@@ -1,13 +1,13 @@
 <script>
-  import "../app.postcss";
-  import Navbar from "$lib/navbar/Navbar.svelte";
-  import Footer from "$lib/footer/Footer.svelte";
+	import '../app.postcss';
+	import Navbar from '$lib/shared/ui/components/navbar/Navbar.svelte';
+	import Footer from '$lib/footer/Footer.svelte';
 </script>
 
 <Navbar />
 
 <main class="pt-20">
-  <slot></slot>
+	<slot />
 </main>
 
 <Footer />
