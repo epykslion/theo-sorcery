@@ -1,11 +1,12 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors');
 
-
 const config = {
-  mode: 'jit',
-  purge: ['./src/**/*.{html,js,svelte,ts}'],
-  theme: {
+	mode: "jit",
+	purge: [
+		"./src/**/*.{html,js,svelte,ts}",
+	],
+	theme: {
     colors: {
 			transparent: 'transparent',
 			current: 'currentColor',
@@ -38,14 +39,14 @@ const config = {
     fontFamily: {
       sans: ['Josefin Sans', ...defaultTheme.fontFamily.sans]
     },
-    extend: {}
-  },
-  plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/line-clamp'),
-    require('@tailwindcss/aspect-ratio'),
-  ]
+		extend: {},
+	},
+	plugins: [
+		require('@tailwindcss/forms'),
+		require('@tailwindcss/typography'),
+		require('@tailwindcss/line-clamp'),
+		require('@tailwindcss/aspect-ratio'),
+	],
 };
 
 module.exports = config;

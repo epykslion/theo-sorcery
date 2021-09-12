@@ -2,17 +2,17 @@
 <nav class="fixed w-screen z-50 bg-coolGray-50 shadow-md">
   <div class="flex justify-between max-w-screen-lg items-center mx-auto p-2">
     <a sveltekit:prefetch href="/" class='font-extralight text-center tracking-widest leading-4 text-[0.9rem] uppercase inline-block'>Theo <br/><span class="text-[0.975rem]">Niko</span></a>
-<div class="flex justify-evenly text-[0.85rem] items-center">
-      <a sveltekit:prefetch href="/" class="mx-[0.2rem] sm:mx-8">
+<div class="inline-flex justify-center items-center text-[0.85rem] mx-auto">
+      <a sveltekit:prefetch href="/" class="mx-[0.175rem] sm:mx-6">
               Home
             </a> 
-      <a sveltekit:prefetch href="/work" class="mx-[0.2rem] sm:mx-8">
+      <a sveltekit:prefetch href="/work" class="mx-[0.175rem] sm:mx-6">
               Work
             </a> 
-      <a sveltekit:prefetch href="/about" class="mx-[0.2rem] sm:mx-8">
+      <a sveltekit:prefetch href="/about" class="mx-[0.175rem] sm:mx-6">
               About
             </a> 
-      <a sveltekit:prefetch href="/contact" class="mx-[0.2rem] sm:mx-8">
+      <a sveltekit:prefetch href="/contact" class="mx-[0.175rem] sm:mx-6">
               Contact
             </a>
   </div> 

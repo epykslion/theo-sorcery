@@ -4,10 +4,10 @@
 </svelte:head>
 <div class="flex flex-col items-center justify-center w-screen">
   <h1 class="mb-4 text-3xl font-semibold text-gray-600 md:text-4xl">
-    Like what you see?<br /><span class="text-xl md:text-4xl"> Book a free consultation today!</span>
+    Like what you see?<br /><span class="text-lg md:text-2xl"> Book a free consultation today!</span>
   </h1>
 <section class="p-6">
-	<form novalidate name="contact" method="POST" data-netlify="true" class="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md filter drop-shadow shadow-lg bg-coolGray-50 ng-untouched ng-pristine ng-valid">
+	<form novalidate name="contact" method="POST" data-netlify="true" class="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow-lg filter drop-shadow bg-coolGray-50 ng-untouched ng-pristine ng-valid">
 		<h2 class="w-full text-3xl font-bold leading-tight">Contact us</h2>
 		<div>
 			<label for="name" class="block mb-1 ml-1">Name</label>

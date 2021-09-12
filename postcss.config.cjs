@@ -1,20 +1,28 @@
+/* jshint esversion: 9 */
+
+const postcssImport = require('postcss-import');
 const tailwindcss = require('tailwindcss');
+const postcssNested = require('postcss-nested');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
+
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 
 const config = {
-  plugins: [
-    //Some plugins, like postcss-nested, need to run before Tailwind,
-    tailwindcss(),
-    //But others, like autoprefixer, need to run after,
-    autoprefixer(),
-    !dev &&
-      cssnano({
-        preset: 'default'
-      })
-  ]
+	// syntax: 'postcss-scss',
+	plugins: [
+		postcssImport(),
+		postcssNested(),
+		tailwindcss(),
+		autoprefixer({
+			cascade: true,
+		}),
+		!dev &&
+			cssnano({
+				preset: 'advanced',
+			}),
+	],
 };
 
 module.exports = config;
