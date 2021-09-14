@@ -114,16 +114,23 @@
     <div class="px-6" />
   </div>
   <!--What I do-->
-    <section class="py-4 mx-4 lg:mx-0">
-     <div class="container relative flex flex-col items-start max-w-6xl px-6 py-12 mx-auto shadow-sm bg-gradient-to-bl sm:px-16 sm:pt-24 from-blueGray-800 to-sky-800 rounded-3xl md:flex-row">
-    <div class="flex flex-col flex-wrap text-left lg:mb-16 md:w-3/5 lg:pr-24 md:pr-16 md:items-start md:mb-0">
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player class="w-screen sm:scale-110 md:mr-12 md:absolute lg:scale-150 sm:right-4" src="https://assets3.lottiefiles.com/packages/lf20_buratoqa.json"  background="transparent"  speed="1"  style="width: 290px; height: 290px;"  loop autoplay></lottie-player>
-      <h2 class="mb-4 text-2xl font-black tracking-tight sm:mb-8 sm:text-4xl text-gray-50 md:text-4xl" style="opacity: 1; transform: translateY(0px);">
+    <section class="py-4 mx-6 lg:mx-0">
+     <div class="container relative flex flex-col max-w-6xl px-6 py-12 mx-auto overflow-hidden shadow-sm max-w-screen bg-gradient-to-bl from-blueGray-800 to-sky-800 rounded-3xl md:flex-row">
+				<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player
+				class="w-full sm:scale-100 md:mr-4 sm:mx-auto md:absolute lg:scale-150 lg:mr-28 lg:mt-8 sm:mt-4 md:right-0"
+				src="https://assets3.lottiefiles.com/packages/lf20_buratoqa.json"
+				background="transparent"
+				speed="1"
+				style="width: 290px; height: 290px;"
+				loop autoplay>
+			</lottie-player>
+			<div class="flex flex-col text-left lg:mb-16 md:w-7/12 lg:pr-12 md:pr-12 lg:pl-4 md:items-start md:mb-0">
+      <h2 class="mb-4 text-2xl font-black tracking-tight md:text-4xl text-gray-50" style="opacity: 1; transform: translateY(0px);">
       Content Creation Services, Tailored to your Brand
       </h2>
-      <p class="mt-4 text-xl text-gray-50 text-opacity-70">
-      Start conversations with content that's uniquely yours. Learn what makes the best creators stand out and give your audience the experience they deserve.
+      <p class="mt-4 text-xl mr-1 text-gray-50 text-opacity-70">
+      Start conversations with content that's uniquely yours. Learn what makes the best creators stand out, giving your audience the experience they deserve.
       </p>
        <div class="flex mt-8">
         <a href="/work" type="button" class="inline-flex items-center px-10 py-4 text-lg font-medium text-center transition duration-500 ease-in-out transform border border-transparent rounded-lg text-gray-50 bg-emerald-600 lg:px-12 hover:bg-emerald-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-800">
@@ -140,21 +147,19 @@
 
 <section class="py-2 mx-4 mt-12">
   <div class="container relative flex flex-col max-w-6xl px-6 py-12 mx-auto overflow-hidden shadow-sm max-w-screen bg-gradient-to-br from-sky-800 to-blueGray-800 rounded-3xl">
-		<div class="relative z-50 transition-transform ease-in-out shadow-lg skew-x-2 h-max duration-400 -rotate-2 md:absolute md:translate-x-64 lg:-translate-x-32 xl:-translate-x-24">
 			<img
-			class="z-50 mb-6 rounded-xl md:mb-0"
-			width="590"
-			height="360"
-			src="/assets/browser-mockup.webp"
+			class="relative scale-[175%] md:absolute md:translate-x-56 sm:scale-150 md:scale-100 md:-translate-y-16 lg:scale-110 lg:-translate-y-20 xl:-translate-x-52 xl:-translate-y-24 lg:-translate-x-60"
+			width="855"
+			height="615"
+			src="/assets/web-mockup.webp"
 			alt="a mockup of a portfolio website in Safari's browser"
 			/>
-		</div>
-    <div class="flex flex-col text-left filter drop-shadow-sm lg:ml-auto lg:mb-4 lg:pl-36 md:pl-16 md:w-2/3 md:items-start md:mb-0 ">
-      <h2 class="mb-4 text-3xl font-black filter drop-shadow-sm text-blueGray-50 md:text-4xl" style="opacity: 1; transform: translateY(0px);">
+    <div class="flex flex-col text-left filter drop-shadow-sm lg:ml-auto lg:mb-4 md:pl-4 lg:pl-40 md:w-8/12 md:items-start md:mb-0">
+      <h2 class="mb-4 text-3xl font-black filter drop-shadow-sm text-blueGray-50 md:text-4xl">
         Beautiful websites, built blazingly fast with much <span class="font-serif italic text-amber-500">Faster Technology.
       </span></h2>
-      <p class="text-xl leading-wider text-gray-50 text-opacity-70">
-      Code or No-Code, we provide stunning<br class="hidden sm:block" /> user experiences, pre-loaded with all that SEO-goodness.
+      <p class="text-xl sm:w-10/12 leading-wider text-gray-50 text-opacity-70">
+      Code or No-Code, we design stunning user experiences, loaded with all that SEO-goodness.
       </p>
        <div class="flex mt-12">
         <a href="/contact" type="button" class="inline-flex items-center px-8 py-2 my-2 text-lg font-medium text-center transition duration-300 ease-in-out transform border border-transparent rounded-lg text-gray-50 bg-emerald-600 lg:px-12 hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blueGray-800">
@@ -235,12 +240,12 @@
         <input
         type="text"
         placeholder="John Doe"
-        class="block w-64 p-3 border border-gray-300 rounded md:w-56 h-min focus:ring-emerald-600 focus:shadow hover:drop-shadow-md drop-shadow filter sm:w-2/3"/>
+        class="block w-64 p-3 border border-gray-300 rounded md:w-56 h-min focus:ring-emerald-600 focus:shadow hover:drop-shadow-md drop-shadow filter"/>
       </label>
       <label for ="email">Email<input
           type="text"
           placeholder="example@email.com"
-          class="block w-64 p-3 border border-gray-300 rounded md:w-56 h-min focus:ring-emerald-600 focus:shadow hover:drop-shadow-md drop-shadow filter sm:w-2/3"
+          class="block w-64 p-3 border border-gray-300 rounded md:w-56 h-min focus:ring-emerald-600 focus:shadow hover:drop-shadow-md drop-shadow filter"
         /></label>
         <button
           type="button"
