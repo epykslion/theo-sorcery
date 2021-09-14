@@ -3,8 +3,8 @@
 
 // imports
 
-import { mdsvex } from "mdsvex";
-import mdsvexConfig from "./mdsvex.config.js";
+import { mdsvex } from 'mdsvex';
+import mdsvexConfig from './mdsvex.config.js';
 import preprocess from 'svelte-preprocess';
 import { resolve } from 'path';
 import { imagetools } from 'vite-imagetools';
@@ -18,18 +18,21 @@ const __dirname = dirname(fileURLToPath(import.meta.url)); // jshint ignore:line
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-    "extensions": [".svelte", ...mdsvexConfig.extensions],
+	extensions: ['.svelte', ...mdsvexConfig.extensions],
 
-    // Consult https://github.com/sveltejs/svelte-preprocess
-    // for more information about preprocessors
-    preprocess: [preprocess({
-        "postcss": true
-    }), mdsvex(mdsvexConfig)],
-    kit: {
+	// Consult https://github.com/sveltejs/svelte-preprocess
+	// for more information about preprocessors
+	preprocess: [
+		preprocess({
+			postcss: true,
+		}),
+		mdsvex(mdsvexConfig),
+	],
+	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
-        adapter: netlify(),
+		adapter: netlify(),
 		target: '#svelte',
-        // ssr: true,
+		// ssr: true,
 		// amp: isAMP,
 		// prerender: {
 		// 	crawl: true,
@@ -37,8 +40,8 @@ const config = {
 		// 	onError: 'fail',
 		// 	pages: ['*'],
 		// },
-        vite: () => ({
-		    resolve: {
+		vite: () => ({
+			resolve: {
 				alias: {
 					$stores: resolve(__dirname, './src/stores'),
 					$components: resolve(__dirname, './src/lib/shared/components'),
@@ -56,7 +59,7 @@ const config = {
 			plugins: [imagetools({ force: true })],
 			envPrefix: ['VITE_', 'SVELTEKIT_BLOG_'],
 		}),
-	}
+	},
 };
 
 export default config;

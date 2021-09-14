@@ -20,7 +20,7 @@ specifiers:
   '@storybook/core-events': ^6.3.8
   '@storybook/svelte': ^6.3.8
   '@storybook/theming': ^6.3.8
-  '@sveltejs/adapter-netlify': ^1.0.0-next.30
+  '@sveltejs/adapter-netlify': ^1.0.0-next.0
   '@sveltejs/kit': next
   '@tailwindcss/aspect-ratio': ^0.2.1
   '@tailwindcss/forms': ^0.3.3
@@ -100,6 +100,7 @@ specifiers:
 dependencies:
   '@lottiefiles/svelte-lottie-player': 0.2.0
   '@lukeed/uuid': 2.0.0
+  '@sveltejs/adapter-netlify': 1.0.0-next.0
   cookie: 0.4.1
   micro-cookie-session: 2.0.0-beta.1
   react: 17.0.2
@@ -123,7 +124,6 @@ devDependencies:
   '@storybook/core-events': 6.3.8
   '@storybook/svelte': 6.3.8_c2525983579cdb6d85ad5d284d096ce1
   '@storybook/theming': 6.3.8_react-dom@17.0.2+react@17.0.2
-  '@sveltejs/adapter-netlify': 1.0.0-next.30
   '@sveltejs/kit': 1.0.0-next.166_svelte@3.42.5
   '@tailwindcss/aspect-ratio': 0.2.1_tailwindcss@2.2.15
   '@tailwindcss/forms': 0.3.3_tailwindcss@2.2.15
@@ -1769,10 +1769,6 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.0:
     resolution: {integrity: sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==}
-    dev: true
-
-  /@iarna/toml/2.2.5:
-    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
     dev: true
 
   /@istanbuljs/load-nyc-config/1.1.0:
@@ -3849,12 +3845,11 @@ packages:
       - '@types/react'
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.30:
-    resolution: {integrity: sha512-pGSd/jiDGW/cSC5L69Jhp9oR9GQpNgjA3OUzDVgouYu1rQnN5AloQCcx0wOFNUl6BQVG1JERqOBHpczLP9NPGA==}
+  /@sveltejs/adapter-netlify/1.0.0-next.0:
+    resolution: {integrity: sha512-CxjWlGkNyQzEB9LsXN+MvF1Z+SHRb16cNZL8sy5bUcytDcf7ETjlgKdaxks7ygWBhI/wtx4Mcxr+uIt50p8vag==}
     dependencies:
-      '@iarna/toml': 2.2.5
-      esbuild: 0.12.26
-    dev: true
+      toml: 3.0.0
+    dev: false
 
   /@sveltejs/kit/1.0.0-next.166_svelte@3.42.5:
     resolution: {integrity: sha512-TQWtWbgyc5+eJY1/RZvCc4gHLssnW+PfKh0dGxbysR0r1vahBgLDUELNlc1dktg/jUJm4eEFl4cqDqKsvU84tQ==}
@@ -13898,6 +13893,10 @@ packages:
     resolution: {integrity: sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==}
     engines: {node: '>=0.6'}
     dev: true
+
+  /toml/3.0.0:
+    resolution: {integrity: sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==}
+    dev: false
 
   /trim-trailing-lines/1.1.4:
     resolution: {integrity: sha512-rjUWSqnfTNrjbB9NQWfPMH/xRK1deHeGsHoVfpxJ++XeYXE0d6B1En37AHfw3jtfTU7dzMzZL2jjpe8Qb5gLIQ==}

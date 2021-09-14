@@ -54,7 +54,6 @@
 		"@storybook/core-events": "^6.3.8",
 		"@storybook/svelte": "^6.3.8",
 		"@storybook/theming": "^6.3.8",
-		"@sveltejs/adapter-netlify": "^1.0.0-next.30",
 		"@sveltejs/kit": "next",
 		"@tailwindcss/aspect-ratio": "^0.2.1",
 		"@tailwindcss/forms": "^0.3.3",
@@ -130,6 +129,7 @@
 	"dependencies": {
 		"@lottiefiles/svelte-lottie-player": "^0.2.0",
 		"@lukeed/uuid": "^2.0.0",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.0",
 		"cookie": "^0.4.1",
 		"micro-cookie-session": "^2.0.0-beta.1",
 		"react": "^17.0.2",
