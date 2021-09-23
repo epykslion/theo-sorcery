@@ -6,8 +6,8 @@ As an open source project, like most others, other passionate developers can con
 
 This website was built on TailwindCSS for styling, and Sveltekit for it's markup and Javascript logic.
 
-Personally, I'm a bit spoilt by component-based frameworks as they allow us to reuse parts of code to keep it <span style="font-weight:700; color:purple;" title="Don't Repeat Yourself">DRY</span>.
+Personally, I'm a bit spoilt by component-based frameworks as they allow us to reuse parts of code to keep it <span style="font-weight:strong; colour:purple;" title="Don't Repeat Yourself">DRY</span>.
 
-By the way, since this file was written in Markdown, it's practically a beginner-friendly way to code, as it's a superset of <span style="font-weight:700; color:purple;" title="HyperText Markup Language">HTML</span>, the language that determines the structure of any website or application. If you hover over the purple text, you'll see a tool-tip that shows what these abbreviations mean.
+By the way, since this file was written in Markdown, it's practically a beginner-friendly way to code, as it's a superset of <span style="font-weight:strong; colour:purple;" title="HyperText Markup Language">HTML</span>, the language that determines the structure of any website or application. If you hover over the purple text, you'll see a tool-tip that shows what these abbreviations mean.
 
 Go ahead, give it a try! Enjoy your time on the inter-webs!
