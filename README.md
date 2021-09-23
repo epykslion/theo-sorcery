@@ -1,38 +1,13 @@
-# create-svelte
+# Welcome! You're probably wondering what this is
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+This is a GitHub repository. It's where code is kept safely, where developers can travel back in time to check if they encounter any bugs, while collaborating asynchronously.
 
-## Creating a project
+As an open source project, like most others, other passionate developers can contribute to the code-base to suggest improvements and build upon an existing software or even the technology used to build them.
 
-If you're seeing this, you've probably already done this step. Congrats!
+This website was built on TailwindCSS for styling, and Sveltekit for it's markup and Javascript logic.
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+Personally, I'm a bit spoilt by component-based frameworks as they allow us to reuse parts of code to keep it <span style="font-weight:700; color:purple;" title="Don't Repeat Yourself">DRY</span>.
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+By the way, since this file was written in Markdown, it's practically a beginner-friendly way to code, as it's a superset of <span style="font-weight:700; color:purple;" title="HyperText Markup Language">HTML</span>, the language that determines the structure of any website or application. If you hover over the purple text, you'll see a tool-tip that shows what these abbreviations mean.
 
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+Go ahead, give it a try! Enjoy your time on the inter-webs!
